@@ -1,0 +1,2323 @@
+[
+  {
+    "project": "aradia-lake-city",
+    "file": "aradia-lake-city-01.webp",
+    "pdfPage": 18,
+    "embeddedAsset": "IM135.jpg",
+    "originalSha256": "4e71c236f313afa660e05baaad54bbf929fb7cad4defbbc52167fb983cfe76f3",
+    "originalSize": [
+      752,
+      900
+    ]
+  },
+  {
+    "project": "aradia-lake-city",
+    "file": "aradia-lake-city-02.webp",
+    "pdfPage": 18,
+    "embeddedAsset": "IM136.jpg",
+    "originalSha256": "8d0afeb53baa12f10c613433acdc0afd9e06fd307bbb574b823b7c8288f1500c",
+    "originalSize": [
+      884,
+      900
+    ]
+  },
+  {
+    "project": "aradia-lake-city",
+    "file": "aradia-lake-city-03.webp",
+    "pdfPage": 18,
+    "embeddedAsset": "IM137.jpg",
+    "originalSha256": "caccc7b6dc7775766072e781688e0f3859abb384989e0fe3409abd2b97e077b6",
+    "originalSize": [
+      884,
+      900
+    ]
+  },
+  {
+    "project": "aradia-lake-city",
+    "file": "aradia-lake-city-04.webp",
+    "pdfPage": 31,
+    "embeddedAsset": "IM229.jpg",
+    "originalSha256": "a85265217312dc081f1f734f338f8b440618086fa858e3fa6e9f6507636c9fee",
+    "originalSize": [
+      2464,
+      1832
+    ]
+  },
+  {
+    "project": "aradia-lake-city",
+    "file": "aradia-lake-city-05.webp",
+    "pdfPage": 31,
+    "embeddedAsset": "IM230.jpg",
+    "originalSha256": "379419600669d93fcc64d101d8298f86f0a67091934d43613aac638f0c3d93d0",
+    "originalSize": [
+      1697,
+      1932
+    ]
+  },
+  {
+    "project": "aradia-lake-city",
+    "file": "aradia-lake-city-06.webp",
+    "pdfPage": 31,
+    "embeddedAsset": "IM231.jpg",
+    "originalSha256": "dda77a62a9eb9447763e9e1a4b666c14e503946f1ed8c0d657251f52f647d718",
+    "originalSize": [
+      2560,
+      1269
+    ]
+  },
+  {
+    "project": "aradia-lake-city",
+    "file": "aradia-lake-city-07.webp",
+    "pdfPage": 32,
+    "embeddedAsset": "IM234.jpg",
+    "originalSha256": "911a3d32f351d4decf3b336121564848dfc7ef69872a1c0db1b087a0b451aee0",
+    "originalSize": [
+      1366,
+      1920
+    ]
+  },
+  {
+    "project": "aradia-lake-city",
+    "file": "aradia-lake-city-08.webp",
+    "pdfPage": 32,
+    "embeddedAsset": "IM235.jpg",
+    "originalSha256": "74c4528cf45498ae1b098cf854dbce994ed951d2006a00e62818d9cd840d3568",
+    "originalSize": [
+      2560,
+      1865
+    ]
+  },
+  {
+    "project": "aradia-lake-city",
+    "file": "aradia-lake-city-09.webp",
+    "pdfPage": 32,
+    "embeddedAsset": "IM236.jpg",
+    "originalSha256": "42ab8c7b473a026ecebbb25c9345a2e09a537db71979f203018b98187de6f434",
+    "originalSize": [
+      2560,
+      1646
+    ]
+  },
+  {
+    "project": "aradia-lake-city",
+    "file": "aradia-lake-city-10.webp",
+    "pdfPage": 57,
+    "embeddedAsset": "IM382.jpg",
+    "originalSha256": "84a2eca3970158a8eed46df444081665defcc88731218e225d127fdf51b1adbe",
+    "originalSize": [
+      1773,
+      2560
+    ]
+  },
+  {
+    "project": "aradia-lake-city",
+    "file": "aradia-lake-city-11.webp",
+    "pdfPage": 57,
+    "embeddedAsset": "IM383.jpg",
+    "originalSha256": "cb757bafe0fafc76a37b5a431e505e337e30cb7ec4df99f94629c549c1b53302",
+    "originalSize": [
+      1727,
+      2560
+    ]
+  },
+  {
+    "project": "aradia-lake-city",
+    "file": "aradia-lake-city-12.webp",
+    "pdfPage": 57,
+    "embeddedAsset": "IM384.jpg",
+    "originalSha256": "d6a3d78f63a2f09f357826ac884da4a70fe7003cb04d71588f5656b68ea56e73",
+    "originalSize": [
+      1782,
+      2560
+    ]
+  },
+  {
+    "project": "aradia-lake-city",
+    "file": "aradia-lake-city-13.webp",
+    "pdfPage": 58,
+    "embeddedAsset": "IM387.jpg",
+    "originalSha256": "dc7cb479fa77bc4b0e0724e4af6ba628c66eab43f22b4482e3a5bcf77e68aad7",
+    "originalSize": [
+      1038,
+      2560
+    ]
+  },
+  {
+    "project": "aradia-lake-city",
+    "file": "aradia-lake-city-14.webp",
+    "pdfPage": 58,
+    "embeddedAsset": "IM388.jpg",
+    "originalSha256": "1da2a540e830075d438e3123134b4eda61394506f1e0253016586c74d21d88fe",
+    "originalSize": [
+      1509,
+      1920
+    ]
+  },
+  {
+    "project": "aradia-lake-city",
+    "file": "aradia-lake-city-15.webp",
+    "pdfPage": 58,
+    "embeddedAsset": "IM389.jpg",
+    "originalSha256": "5ae73c16d9dd73f60b4efdfb6fe17a088df7f2c3f8bda316e596ce5664db6952",
+    "originalSize": [
+      1038,
+      2560
+    ]
+  },
+  {
+    "project": "d-cosmos-damansara-perdana",
+    "file": "d-cosmos-damansara-perdana-01.webp",
+    "pdfPage": 19,
+    "embeddedAsset": "IM140.jpg",
+    "originalSha256": "38dc1a1daed83554733806ffd8f8d648119de5b3a10448641d0f6422f726357b",
+    "originalSize": [
+      1275,
+      900
+    ]
+  },
+  {
+    "project": "d-cosmos-damansara-perdana",
+    "file": "d-cosmos-damansara-perdana-02.webp",
+    "pdfPage": 19,
+    "embeddedAsset": "IM141.jpg",
+    "originalSha256": "8d585143797cdde0ab3dde3632b4218ff3abdfdd370e5ecb7c74dfb946ba1614",
+    "originalSize": [
+      1272,
+      900
+    ]
+  },
+  {
+    "project": "d-cosmos-damansara-perdana",
+    "file": "d-cosmos-damansara-perdana-03.webp",
+    "pdfPage": 19,
+    "embeddedAsset": "IM142.jpg",
+    "originalSha256": "9c6f8ecc93818a08a67e44fc789cf8a71bd63887dc6a166bd2c372187c1d8a9a",
+    "originalSize": [
+      623,
+      900
+    ]
+  },
+  {
+    "project": "d-cosmos-damansara-perdana",
+    "file": "d-cosmos-damansara-perdana-04.webp",
+    "pdfPage": 19,
+    "embeddedAsset": "IM143.jpg",
+    "originalSha256": "f06610b0b0aac487ce65051baca0a428417592e699fc35a67a73bf3d87380bc9",
+    "originalSize": [
+      624,
+      900
+    ]
+  },
+  {
+    "project": "d-cosmos-damansara-perdana",
+    "file": "d-cosmos-damansara-perdana-05.webp",
+    "pdfPage": 19,
+    "embeddedAsset": "IM144.jpg",
+    "originalSha256": "f400595bb2ce83c8db39756d7f22c6e55a5fe01cf33b1a2f5ee0c351af8525f3",
+    "originalSize": [
+      1274,
+      900
+    ]
+  },
+  {
+    "project": "rimbayu-robin-teluk-panglima",
+    "file": "rimbayu-robin-teluk-panglima-01.webp",
+    "pdfPage": 20,
+    "embeddedAsset": "IM147.jpg",
+    "originalSha256": "23ce3ed47269233ca66fbdb9b89211e32a635cc5e6eb5fe8030e95037aa86758",
+    "originalSize": [
+      1020,
+      720
+    ]
+  },
+  {
+    "project": "rimbayu-robin-teluk-panglima",
+    "file": "rimbayu-robin-teluk-panglima-02.webp",
+    "pdfPage": 20,
+    "embeddedAsset": "IM148.jpg",
+    "originalSha256": "d51fd5ea6f4d7b1adf51de728f01798b1a6ddbac1a085b594fd7d77d35c3552c",
+    "originalSize": [
+      1017,
+      720
+    ]
+  },
+  {
+    "project": "rimbayu-robin-teluk-panglima",
+    "file": "rimbayu-robin-teluk-panglima-03.webp",
+    "pdfPage": 20,
+    "embeddedAsset": "IM149.jpg",
+    "originalSha256": "4247e9786d324bd14ed579aa8b0108e660a4eb2c93d42a5de9c73439d297eccd",
+    "originalSize": [
+      498,
+      720
+    ]
+  },
+  {
+    "project": "rimbayu-robin-teluk-panglima",
+    "file": "rimbayu-robin-teluk-panglima-04.webp",
+    "pdfPage": 20,
+    "embeddedAsset": "IM150.jpg",
+    "originalSha256": "afd54dd61dd22d0f2144ea45831f80d18664301aad7a79ba4a70d14e20996d4e",
+    "originalSize": [
+      498,
+      720
+    ]
+  },
+  {
+    "project": "rimbayu-robin-teluk-panglima",
+    "file": "rimbayu-robin-teluk-panglima-05.webp",
+    "pdfPage": 20,
+    "embeddedAsset": "IM151.jpg",
+    "originalSha256": "98b14908c2f446132c63d0e81ec7e2f73d26e437d58af2e1dfcfbe0116a0e569",
+    "originalSize": [
+      1019,
+      720
+    ]
+  },
+  {
+    "project": "rimbayu-robin-teluk-panglima",
+    "file": "rimbayu-robin-teluk-panglima-06.webp",
+    "pdfPage": 21,
+    "embeddedAsset": "IM154.jpg",
+    "originalSha256": "22cc70b9fc31ed343a510ddea3db3dc228e9d2434d6252993e4ab3d4bf67857c",
+    "originalSize": [
+      989,
+      720
+    ]
+  },
+  {
+    "project": "rimbayu-robin-teluk-panglima",
+    "file": "rimbayu-robin-teluk-panglima-07.webp",
+    "pdfPage": 21,
+    "embeddedAsset": "IM155.jpg",
+    "originalSha256": "4dab8d8425c5b0bb23734b1f7e2a010252af7b4c7d12002d6a6d4cf8a72f9b15",
+    "originalSize": [
+      988,
+      720
+    ]
+  },
+  {
+    "project": "rimbayu-robin-teluk-panglima",
+    "file": "rimbayu-robin-teluk-panglima-08.webp",
+    "pdfPage": 21,
+    "embeddedAsset": "IM156.jpg",
+    "originalSha256": "af203d649b26d9f2c6822f487900999f47d04cd93ddaff3487d9d2a53d1bbc58",
+    "originalSize": [
+      1123,
+      720
+    ]
+  },
+  {
+    "project": "rimbayu-robin-teluk-panglima",
+    "file": "rimbayu-robin-teluk-panglima-09.webp",
+    "pdfPage": 21,
+    "embeddedAsset": "IM157.jpg",
+    "originalSha256": "9e4bb31345d57b2b4f820d26483d7d1a0074070350bfc38538ca100664ae3b28",
+    "originalSize": [
+      1123,
+      720
+    ]
+  },
+  {
+    "project": "rimbayu-robin-teluk-panglima",
+    "file": "rimbayu-robin-teluk-panglima-10.webp",
+    "pdfPage": 22,
+    "embeddedAsset": "IM160.jpg",
+    "originalSha256": "750cd7c9ab2ec831d6ebe64f51109507a99d13247c032e9a3f636593c49fc009",
+    "originalSize": [
+      958,
+      810
+    ]
+  },
+  {
+    "project": "rimbayu-robin-teluk-panglima",
+    "file": "rimbayu-robin-teluk-panglima-11.webp",
+    "pdfPage": 22,
+    "embeddedAsset": "IM161.jpg",
+    "originalSha256": "10c4650d9500f640d6af0a81e59b0c2b534baec7e069d6ed0521dc70259fda02",
+    "originalSize": [
+      810,
+      742
+    ]
+  },
+  {
+    "project": "rimbayu-robin-teluk-panglima",
+    "file": "rimbayu-robin-teluk-panglima-12.webp",
+    "pdfPage": 22,
+    "embeddedAsset": "IM162.jpg",
+    "originalSha256": "7225d3f646750f02b80fb93d9cf2be816234934b0b42a4b31344694da66f6242",
+    "originalSize": [
+      810,
+      742
+    ]
+  },
+  {
+    "project": "rimbayu-robin-teluk-panglima",
+    "file": "rimbayu-robin-teluk-panglima-13.webp",
+    "pdfPage": 23,
+    "embeddedAsset": "IM173.jpg",
+    "originalSha256": "72c1e3715917ed3fb95097544bfc74bc2ec238ae34c492f6330638211528c05b",
+    "originalSize": [
+      810,
+      634
+    ]
+  },
+  {
+    "project": "rimbayu-robin-teluk-panglima",
+    "file": "rimbayu-robin-teluk-panglima-14.webp",
+    "pdfPage": 23,
+    "embeddedAsset": "IM174.jpg",
+    "originalSha256": "19ba2c111aded76cce05beb2611645c3af96b45d8e196d56c82786a786919566",
+    "originalSize": [
+      1080,
+      771
+    ]
+  },
+  {
+    "project": "rimbayu-robin-teluk-panglima",
+    "file": "rimbayu-robin-teluk-panglima-15.webp",
+    "pdfPage": 23,
+    "embeddedAsset": "IM175.jpg",
+    "originalSha256": "498b305570247690788986fb925c0d15a727678a2d546d76b82e57f7bdaebc99",
+    "originalSize": [
+      810,
+      890
+    ]
+  },
+  {
+    "project": "rimbayu-robin-teluk-panglima",
+    "file": "rimbayu-robin-teluk-panglima-16.webp",
+    "pdfPage": 23,
+    "embeddedAsset": "IM176.jpg",
+    "originalSha256": "a8522bae8cc96279febc5086b34c3d60bf47f7cb561ef1371114245998ebf7ad",
+    "originalSize": [
+      810,
+      603
+    ]
+  },
+  {
+    "project": "serene-mont-kiara",
+    "file": "serene-mont-kiara-01.webp",
+    "pdfPage": 24,
+    "embeddedAsset": "IM180.jpg",
+    "originalSha256": "806d7d696d29584d4909aa62ba446e469e3904be6d969c1861842e80176455d4",
+    "originalSize": [
+      1242,
+      720
+    ]
+  },
+  {
+    "project": "serene-mont-kiara",
+    "file": "serene-mont-kiara-02.webp",
+    "pdfPage": 24,
+    "embeddedAsset": "IM181.jpg",
+    "originalSha256": "6cb0bf652d2806188693d6d7866694ae3c8f6c20fedc3fb799ad3d29fc56e066",
+    "originalSize": [
+      945,
+      720
+    ]
+  },
+  {
+    "project": "serene-mont-kiara",
+    "file": "serene-mont-kiara-03.webp",
+    "pdfPage": 24,
+    "embeddedAsset": "IM182.jpg",
+    "originalSha256": "07230e492aa165253eef360e925ea5b33f7037252dbb941b99f4c4f8c3aeb70a",
+    "originalSize": [
+      943,
+      720
+    ]
+  },
+  {
+    "project": "serene-mont-kiara",
+    "file": "serene-mont-kiara-04.webp",
+    "pdfPage": 24,
+    "embeddedAsset": "IM183.jpg",
+    "originalSha256": "1c5c8311d89c2568f9f483efb6359a7d95e734873a916678c3f22e950f21ba5a",
+    "originalSize": [
+      1242,
+      720
+    ]
+  },
+  {
+    "project": "serene-mont-kiara",
+    "file": "serene-mont-kiara-05.webp",
+    "pdfPage": 25,
+    "embeddedAsset": "IM186.jpg",
+    "originalSha256": "05575f5f32bda571ee860729b0fc976fad840554048b65273108e5d5498f8b58",
+    "originalSize": [
+      990,
+      720
+    ]
+  },
+  {
+    "project": "serene-mont-kiara",
+    "file": "serene-mont-kiara-06.webp",
+    "pdfPage": 25,
+    "embeddedAsset": "IM187.jpg",
+    "originalSha256": "1b70076d212ca917ee7b32cb10c5168feb83f27f9cf100cfe1c5f776ddd333ed",
+    "originalSize": [
+      988,
+      720
+    ]
+  },
+  {
+    "project": "serene-mont-kiara",
+    "file": "serene-mont-kiara-07.webp",
+    "pdfPage": 25,
+    "embeddedAsset": "IM188.jpg",
+    "originalSha256": "41f83152da9ec8749aa5fa714155ac514cf1dcab227d9b8878f5b3e275840fc9",
+    "originalSize": [
+      1123,
+      720
+    ]
+  },
+  {
+    "project": "serene-mont-kiara",
+    "file": "serene-mont-kiara-08.webp",
+    "pdfPage": 25,
+    "embeddedAsset": "IM189.jpg",
+    "originalSha256": "f5f7c46e554255646c3013b239dcd749c9e3dcbb6e96544f89656c08241be829",
+    "originalSize": [
+      1122,
+      720
+    ]
+  },
+  {
+    "project": "ikhasas-group-hq",
+    "file": "ikhasas-group-hq-01.webp",
+    "pdfPage": 26,
+    "embeddedAsset": "IM202.jpg",
+    "originalSha256": "1d5493c8dc3fd70fac93ad140df5a0c11ec006150ab6adf16ee953f63cc4bcab",
+    "originalSize": [
+      594,
+      720
+    ]
+  },
+  {
+    "project": "ikhasas-group-hq",
+    "file": "ikhasas-group-hq-02.webp",
+    "pdfPage": 26,
+    "embeddedAsset": "IM203.jpg",
+    "originalSha256": "5483a724d6954ff7bc6c7a89812d4a515be6eb9a4350cd333ff40123c96795f1",
+    "originalSize": [
+      1101,
+      720
+    ]
+  },
+  {
+    "project": "ikhasas-group-hq",
+    "file": "ikhasas-group-hq-03.webp",
+    "pdfPage": 26,
+    "embeddedAsset": "IM204.jpg",
+    "originalSha256": "1a280a649b0615246b12293268a114fa507906b187975f6b3c67400630d431da",
+    "originalSize": [
+      1102,
+      720
+    ]
+  },
+  {
+    "project": "ikhasas-group-hq",
+    "file": "ikhasas-group-hq-04.webp",
+    "pdfPage": 26,
+    "embeddedAsset": "IM205.jpg",
+    "originalSha256": "376c1e91db26ee9342fe62c6a637e20db5aef190674efc3916fd349ad58f76cc",
+    "originalSize": [
+      1103,
+      720
+    ]
+  },
+  {
+    "project": "ikhasas-group-hq",
+    "file": "ikhasas-group-hq-05.webp",
+    "pdfPage": 27,
+    "embeddedAsset": "IM208.jpg",
+    "originalSha256": "b283ff825dacd957536a8e12adb4ccf26e6eb868cc9356616e8fea9e3f5cfcb2",
+    "originalSize": [
+      1125,
+      720
+    ]
+  },
+  {
+    "project": "ikhasas-group-hq",
+    "file": "ikhasas-group-hq-06.webp",
+    "pdfPage": 27,
+    "embeddedAsset": "IM209.jpg",
+    "originalSha256": "3449fb06893efc241063a22b4f606047bd89c03e81deb56dd93d79618177d744",
+    "originalSize": [
+      1125,
+      720
+    ]
+  },
+  {
+    "project": "ikhasas-group-hq",
+    "file": "ikhasas-group-hq-07.webp",
+    "pdfPage": 27,
+    "embeddedAsset": "IM210.jpg",
+    "originalSha256": "c7c0060ed898933ab37ef1c068fabfd267794c667156435d0497b2b4b9444533",
+    "originalSize": [
+      1121,
+      720
+    ]
+  },
+  {
+    "project": "ikhasas-group-hq",
+    "file": "ikhasas-group-hq-08.webp",
+    "pdfPage": 27,
+    "embeddedAsset": "IM211.jpg",
+    "originalSha256": "a0ad9b16ca8268c4613fbfee307770af5395981a07ba5ea0c54953dd9ad0ddbb",
+    "originalSize": [
+      1121,
+      720
+    ]
+  },
+  {
+    "project": "ikhasas-group-hq",
+    "file": "ikhasas-group-hq-09.webp",
+    "pdfPage": 28,
+    "embeddedAsset": "IM214.jpg",
+    "originalSha256": "48773b9bf6ad94d766ab18d9c78fb5b8241604ef8fbc84085711322695e7913c",
+    "originalSize": [
+      1200,
+      720
+    ]
+  },
+  {
+    "project": "ikhasas-group-hq",
+    "file": "ikhasas-group-hq-10.webp",
+    "pdfPage": 28,
+    "embeddedAsset": "IM215.jpg",
+    "originalSha256": "9728be8939900ef4ca121ef13f9dfe89345636be95e3c8fea91256c235dd416e",
+    "originalSize": [
+      1200,
+      720
+    ]
+  },
+  {
+    "project": "ikhasas-group-hq",
+    "file": "ikhasas-group-hq-11.webp",
+    "pdfPage": 28,
+    "embeddedAsset": "IM216.jpg",
+    "originalSha256": "56576d2f0716e0b0fe8ff412ff72216f638ea8c22c620fddd44e7626d17f9b67",
+    "originalSize": [
+      1200,
+      720
+    ]
+  },
+  {
+    "project": "laurel-resident-bangsar-south",
+    "file": "laurel-resident-bangsar-south-01.webp",
+    "pdfPage": 29,
+    "embeddedAsset": "IM219.jpg",
+    "originalSha256": "7e5de07ab4d6f741fde2c4d4d245bc41f0cb54f01b5c2a8c824c955df34e432e",
+    "originalSize": [
+      1727,
+      1920
+    ]
+  },
+  {
+    "project": "laurel-resident-bangsar-south",
+    "file": "laurel-resident-bangsar-south-02.webp",
+    "pdfPage": 29,
+    "embeddedAsset": "IM220.jpg",
+    "originalSha256": "efc914666de46044b78a9bd55b8a309e9c867b7ed5cd3134e4dd5db210039e72",
+    "originalSize": [
+      1440,
+      2508
+    ]
+  },
+  {
+    "project": "laurel-resident-bangsar-south",
+    "file": "laurel-resident-bangsar-south-03.webp",
+    "pdfPage": 29,
+    "embeddedAsset": "IM221.jpg",
+    "originalSha256": "8b05a62c65eca459f5a4316901e501406953ed8e7d4c727bdd80a156dbe3a9f6",
+    "originalSize": [
+      1584,
+      2560
+    ]
+  },
+  {
+    "project": "laurel-resident-bangsar-south",
+    "file": "laurel-resident-bangsar-south-04.webp",
+    "pdfPage": 30,
+    "embeddedAsset": "IM224.jpg",
+    "originalSha256": "9563336c4095882db03a8c8e35493b5ee5813bf87dab3005cb6e4f91b2886562",
+    "originalSize": [
+      1892,
+      1440
+    ]
+  },
+  {
+    "project": "laurel-resident-bangsar-south",
+    "file": "laurel-resident-bangsar-south-05.webp",
+    "pdfPage": 30,
+    "embeddedAsset": "IM225.jpg",
+    "originalSha256": "d98d0233aa5e125f6876e2f0a5e79aee761c4fb1674cc850a227af9fee0f105e",
+    "originalSize": [
+      2560,
+      1266
+    ]
+  },
+  {
+    "project": "laurel-resident-bangsar-south",
+    "file": "laurel-resident-bangsar-south-06.webp",
+    "pdfPage": 30,
+    "embeddedAsset": "IM226.jpg",
+    "originalSha256": "7afe660ae7df59eff6746feb270d4feb8a09285938f38017a194e6e84ae8834b",
+    "originalSize": [
+      1576,
+      1920
+    ]
+  },
+  {
+    "project": "cantara-residence-ara-damansara",
+    "file": "cantara-residence-ara-damansara-01.webp",
+    "pdfPage": 33,
+    "embeddedAsset": "IM239.jpg",
+    "originalSha256": "72ed1046740dd68fb8db82d4a3076ff0f32d59bb2cc367f13df43aa604b3e622",
+    "originalSize": [
+      1751,
+      2560
+    ]
+  },
+  {
+    "project": "cantara-residence-ara-damansara",
+    "file": "cantara-residence-ara-damansara-02.webp",
+    "pdfPage": 33,
+    "embeddedAsset": "IM240.jpg",
+    "originalSha256": "79564776133a6a0418077784380bbeb5ae9a5b0ac24f941db439dd32e090366b",
+    "originalSize": [
+      1855,
+      2560
+    ]
+  },
+  {
+    "project": "cantara-residence-ara-damansara",
+    "file": "cantara-residence-ara-damansara-03.webp",
+    "pdfPage": 33,
+    "embeddedAsset": "IM241.jpg",
+    "originalSha256": "45c3b2d069c64816421beaf11f2bdeabc334c45dbd687a745f0a53cc02f6539e",
+    "originalSize": [
+      2560,
+      1673
+    ]
+  },
+  {
+    "project": "cantara-residence-ara-damansara",
+    "file": "cantara-residence-ara-damansara-04.webp",
+    "pdfPage": 33,
+    "embeddedAsset": "IM242.jpg",
+    "originalSha256": "01362a9bddd9b093b5dba612e9ebd0f5777633b42cd227cf003c61330a36611a",
+    "originalSize": [
+      1430,
+      1920
+    ]
+  },
+  {
+    "project": "cantara-residence-ara-damansara",
+    "file": "cantara-residence-ara-damansara-05.webp",
+    "pdfPage": 34,
+    "embeddedAsset": "IM245.jpg",
+    "originalSha256": "e18fef45f385f6ce02b9a24bf0ea13acb18c1d20d4d0be1b381543955ddc6e7f",
+    "originalSize": [
+      2560,
+      1823
+    ]
+  },
+  {
+    "project": "cantara-residence-ara-damansara",
+    "file": "cantara-residence-ara-damansara-06.webp",
+    "pdfPage": 34,
+    "embeddedAsset": "IM246.jpg",
+    "originalSha256": "d9c46479a1c3dfbdc2cc5bca349bfa847e5a18accd5bd9d336106bc08a3cc236",
+    "originalSize": [
+      1317,
+      1822
+    ]
+  },
+  {
+    "project": "cantara-residence-ara-damansara",
+    "file": "cantara-residence-ara-damansara-07.webp",
+    "pdfPage": 34,
+    "embeddedAsset": "IM247.jpg",
+    "originalSha256": "f46a2aba1198316027f437c8e78de883acb404b0a58c6d55efe86b1fc36eba5c",
+    "originalSize": [
+      1397,
+      1828
+    ]
+  },
+  {
+    "project": "cantara-residence-ara-damansara",
+    "file": "cantara-residence-ara-damansara-08.webp",
+    "pdfPage": 34,
+    "embeddedAsset": "IM248.jpg",
+    "originalSha256": "e38d9fd472b82b01ea39eaf6a2c8e664c412e4dc347f24659b01078c54850a11",
+    "originalSize": [
+      1822,
+      2560
+    ]
+  },
+  {
+    "project": "damansara-heights-kl",
+    "file": "damansara-heights-kl-01.webp",
+    "pdfPage": 35,
+    "embeddedAsset": "IM255.jpg",
+    "originalSha256": "4c3dd138ec987459a8472fd0bcd50791010772ff4031789e5c60930bbd8d3fc8",
+    "originalSize": [
+      558,
+      419
+    ]
+  },
+  {
+    "project": "damansara-heights-kl",
+    "file": "damansara-heights-kl-02.webp",
+    "pdfPage": 35,
+    "embeddedAsset": "IM256.jpg",
+    "originalSha256": "e5f6afc22c32f9a93f2d7d2654308570ae3ccab01ece3a7831cd9489dd14ff27",
+    "originalSize": [
+      803,
+      602
+    ]
+  },
+  {
+    "project": "damansara-heights-kl",
+    "file": "damansara-heights-kl-03.webp",
+    "pdfPage": 36,
+    "embeddedAsset": "IM259.jpg",
+    "originalSha256": "28f7502ad1b0ad45a0a4147bcbab6c9c8e859e39e83b0da2b25b74f66620654c",
+    "originalSize": [
+      542,
+      406
+    ]
+  },
+  {
+    "project": "damansara-heights-kl",
+    "file": "damansara-heights-kl-04.webp",
+    "pdfPage": 36,
+    "embeddedAsset": "IM260.jpg",
+    "originalSha256": "31fbdc6b9a075ecd8d14ea00228107877e6efbfdded6be02f8dbd69fbf9f79df",
+    "originalSize": [
+      637,
+      508
+    ]
+  },
+  {
+    "project": "damansara-heights-kl",
+    "file": "damansara-heights-kl-05.webp",
+    "pdfPage": 36,
+    "embeddedAsset": "IM261.jpg",
+    "originalSha256": "0d04fcd465ed99c08a8b71bb79160f6acd689c3a1c6e701306c20a882d0461c4",
+    "originalSize": [
+      812,
+      609
+    ]
+  },
+  {
+    "project": "damansara-heights-kl",
+    "file": "damansara-heights-kl-06.webp",
+    "pdfPage": 36,
+    "embeddedAsset": "IM262.jpg",
+    "originalSha256": "79d6f92d1b2f9100211b91158ab15638e385b242b8224484810729f4a461eb0d",
+    "originalSize": [
+      1027,
+      771
+    ]
+  },
+  {
+    "project": "taman-melawati-kl",
+    "file": "taman-melawati-kl-01.webp",
+    "pdfPage": 37,
+    "embeddedAsset": "IM265.jpg",
+    "originalSha256": "0b3d84c43b67fc3625ba793f60227f64c1ff850366b16ddbdfc2f0afaf1300fa",
+    "originalSize": [
+      1449,
+      1087
+    ]
+  },
+  {
+    "project": "taman-melawati-kl",
+    "file": "taman-melawati-kl-02.webp",
+    "pdfPage": 37,
+    "embeddedAsset": "IM266.jpg",
+    "originalSha256": "875201691658c9de0ff2a21f7d079ddb4e81a99270e646ae7bb0b65b0068345c",
+    "originalSize": [
+      683,
+      910
+    ]
+  },
+  {
+    "project": "taman-melawati-kl",
+    "file": "taman-melawati-kl-03.webp",
+    "pdfPage": 38,
+    "embeddedAsset": "IM269.jpg",
+    "originalSha256": "f7a582a402689dc2ac5bda5c6388f30797bf7801673e7995cbc6f844ee070e7e",
+    "originalSize": [
+      756,
+      567
+    ]
+  },
+  {
+    "project": "taman-melawati-kl",
+    "file": "taman-melawati-kl-04.webp",
+    "pdfPage": 38,
+    "embeddedAsset": "IM270.jpg",
+    "originalSha256": "5849e1f24c94fc2053f9b60b24cc3e20f3be28bfcf0e6eef0c750a20cc374889",
+    "originalSize": [
+      689,
+      517
+    ]
+  },
+  {
+    "project": "taman-melawati-kl",
+    "file": "taman-melawati-kl-05.webp",
+    "pdfPage": 38,
+    "embeddedAsset": "IM271.jpg",
+    "originalSha256": "ab2a0f13a505e35951e11b9d87ae8cba488024ce0e118b6d324fa7d798a3e962",
+    "originalSize": [
+      729,
+      547
+    ]
+  },
+  {
+    "project": "taman-melawati-kl",
+    "file": "taman-melawati-kl-06.webp",
+    "pdfPage": 38,
+    "embeddedAsset": "IM272.jpg",
+    "originalSha256": "b5b9ca9e3f5e90752b56a2ca7e37f035d4376728291363c88a3042d95e19747d",
+    "originalSize": [
+      728,
+      546
+    ]
+  },
+  {
+    "project": "taman-melawati-kl",
+    "file": "taman-melawati-kl-07.webp",
+    "pdfPage": 39,
+    "embeddedAsset": "IM275.jpg",
+    "originalSha256": "d320fa25317e06505609208c77da89f98baac9276cd3942a313fc6dbb9a68d71",
+    "originalSize": [
+      841,
+      631
+    ]
+  },
+  {
+    "project": "taman-melawati-kl",
+    "file": "taman-melawati-kl-08.webp",
+    "pdfPage": 39,
+    "embeddedAsset": "IM276.jpg",
+    "originalSha256": "f4f96c994ac617c1c6841cf43c659026451af8621cd2fde68840cf6a94d85aa6",
+    "originalSize": [
+      567,
+      426
+    ]
+  },
+  {
+    "project": "taman-melawati-kl",
+    "file": "taman-melawati-kl-09.webp",
+    "pdfPage": 39,
+    "embeddedAsset": "IM277.jpg",
+    "originalSha256": "c6ec67bb6cc03b6ddaa317c8b0cd74b52f5fdd03da24a08658597d78e6f9b3c6",
+    "originalSize": [
+      739,
+      554
+    ]
+  },
+  {
+    "project": "taman-melawati-kl",
+    "file": "taman-melawati-kl-10.webp",
+    "pdfPage": 39,
+    "embeddedAsset": "IM278.jpg",
+    "originalSha256": "d8d51380f99bc91d6f9192dc2d33da2bc615c85c4cd7f27284a5e179c02115df",
+    "originalSize": [
+      664,
+      498
+    ]
+  },
+  {
+    "project": "taman-melawati-kl",
+    "file": "taman-melawati-kl-11.webp",
+    "pdfPage": 40,
+    "embeddedAsset": "IM281.jpg",
+    "originalSha256": "36e74136e3d049d6990846f7a2584b5711620995e42220566b668d2651d7beea",
+    "originalSize": [
+      735,
+      551
+    ]
+  },
+  {
+    "project": "taman-melawati-kl",
+    "file": "taman-melawati-kl-12.webp",
+    "pdfPage": 40,
+    "embeddedAsset": "IM282.jpg",
+    "originalSha256": "962255a3f475ffa64903bc975595fbe9e3b68182a25cf13e2c27df766f2db260",
+    "originalSize": [
+      657,
+      493
+    ]
+  },
+  {
+    "project": "taman-melawati-kl",
+    "file": "taman-melawati-kl-13.webp",
+    "pdfPage": 40,
+    "embeddedAsset": "IM283.jpg",
+    "originalSha256": "5ff86efbbf4ee3f4ba3c8da212c05bee4c87351dd7a7e3f60f66865908568938",
+    "originalSize": [
+      747,
+      561
+    ]
+  },
+  {
+    "project": "taman-melawati-kl",
+    "file": "taman-melawati-kl-14.webp",
+    "pdfPage": 40,
+    "embeddedAsset": "IM284.jpg",
+    "originalSha256": "ce517f7686586108998e653014268e95bde7e401a348efe9b81415bb23045838",
+    "originalSize": [
+      682,
+      511
+    ]
+  },
+  {
+    "project": "inside-style-pj-ss2",
+    "file": "inside-style-pj-ss2-01.webp",
+    "pdfPage": 41,
+    "embeddedAsset": "IM287.jpg",
+    "originalSha256": "2f9e9c19ca4237943a6829b13d005f677c271d96c8d688f7ca45ca7d279a61f2",
+    "originalSize": [
+      2560,
+      1731
+    ]
+  },
+  {
+    "project": "inside-style-pj-ss2",
+    "file": "inside-style-pj-ss2-02.webp",
+    "pdfPage": 41,
+    "embeddedAsset": "IM288.jpg",
+    "originalSha256": "826bd6ddeaf0bbb8d8afde42d26a75a1214db05847bc9fd640a76cecaa3cb2a4",
+    "originalSize": [
+      2560,
+      1396
+    ]
+  },
+  {
+    "project": "inside-style-pj-ss2",
+    "file": "inside-style-pj-ss2-03.webp",
+    "pdfPage": 42,
+    "embeddedAsset": "IM291.jpg",
+    "originalSha256": "56328b564ef8a55ade01746665d253f89671222704af9759acaeb6fc59ef8e46",
+    "originalSize": [
+      2522,
+      1920
+    ]
+  },
+  {
+    "project": "inside-style-pj-ss2",
+    "file": "inside-style-pj-ss2-04.webp",
+    "pdfPage": 42,
+    "embeddedAsset": "IM292.jpg",
+    "originalSha256": "dbcbe4ffae442c9afd3b8d16ecd70d2a610390805c0b9e2f40044a16af0efe8f",
+    "originalSize": [
+      2560,
+      1266
+    ]
+  },
+  {
+    "project": "inside-style-pj-ss2",
+    "file": "inside-style-pj-ss2-05.webp",
+    "pdfPage": 42,
+    "embeddedAsset": "IM293.jpg",
+    "originalSha256": "4706400e51ebac09fdfbccb04e432ef7c1ae224242501ec66a77b2b98a47f855",
+    "originalSize": [
+      1575,
+      1920
+    ]
+  },
+  {
+    "project": "suria-north-kiara",
+    "file": "suria-north-kiara-01.webp",
+    "pdfPage": 43,
+    "embeddedAsset": "IM296.jpg",
+    "originalSha256": "aed2274cc0e0f1b5854de4687da900fe417d9f4fe2e463031553793f33146cb1",
+    "originalSize": [
+      608,
+      727
+    ]
+  },
+  {
+    "project": "suria-north-kiara",
+    "file": "suria-north-kiara-02.webp",
+    "pdfPage": 43,
+    "embeddedAsset": "IM297.jpg",
+    "originalSha256": "c84a4e482181452d38a83260009c8da0f8892b11e50913590fa23ef776bcd1f8",
+    "originalSize": [
+      1280,
+      855
+    ]
+  },
+  {
+    "project": "suria-north-kiara",
+    "file": "suria-north-kiara-03.webp",
+    "pdfPage": 43,
+    "embeddedAsset": "IM298.jpg",
+    "originalSha256": "c2efc4cc65696709b9826e1a3a89d2f8507b967467febf53a9e418b4d42679e6",
+    "originalSize": [
+      1080,
+      722
+    ]
+  },
+  {
+    "project": "suria-north-kiara",
+    "file": "suria-north-kiara-04.webp",
+    "pdfPage": 43,
+    "embeddedAsset": "IM299.jpg",
+    "originalSha256": "1a11c576823dde27a0b3f8c202e6f46cef8f9ecb05f4b5cf7589f6f899199037",
+    "originalSize": [
+      1280,
+      855
+    ]
+  },
+  {
+    "project": "hong-leong-yamaha-sungai-buloh",
+    "file": "hong-leong-yamaha-sungai-buloh-01.webp",
+    "pdfPage": 44,
+    "embeddedAsset": "IM302.jpg",
+    "originalSha256": "55e3ea9d729380ec30084a2bfbf99f2ab99234242979f5960164c81d130111e6",
+    "originalSize": [
+      2560,
+      1902
+    ]
+  },
+  {
+    "project": "hong-leong-yamaha-sungai-buloh",
+    "file": "hong-leong-yamaha-sungai-buloh-02.webp",
+    "pdfPage": 44,
+    "embeddedAsset": "IM303.jpg",
+    "originalSha256": "606975c098fbf102133cfe2f46456f6fbd4345e2a08269ebc67b36752b4bad8f",
+    "originalSize": [
+      1685,
+      1920
+    ]
+  },
+  {
+    "project": "hong-leong-yamaha-sungai-buloh",
+    "file": "hong-leong-yamaha-sungai-buloh-03.webp",
+    "pdfPage": 44,
+    "embeddedAsset": "IM304.jpg",
+    "originalSha256": "4ce4f3485895da6157b11eeff01066afff7807df6cb5b0cc480f1871c99d5333",
+    "originalSize": [
+      2560,
+      1269
+    ]
+  },
+  {
+    "project": "hong-leong-yamaha-sungai-buloh",
+    "file": "hong-leong-yamaha-sungai-buloh-04.webp",
+    "pdfPage": 45,
+    "embeddedAsset": "IM309.jpg",
+    "originalSha256": "edbcac1c22183dcbdcd76afb14506d6f03eabd7ad0cda95e741895caa6805471",
+    "originalSize": [
+      1920,
+      2560
+    ]
+  },
+  {
+    "project": "hong-leong-yamaha-sungai-buloh",
+    "file": "hong-leong-yamaha-sungai-buloh-05.webp",
+    "pdfPage": 45,
+    "embeddedAsset": "IM310.jpg",
+    "originalSha256": "f2d1ba432d9c87535366e999bc5fb648729b0eb58fc4f77f403d87e06793fec6",
+    "originalSize": [
+      1920,
+      2560
+    ]
+  },
+  {
+    "project": "menara-keck-seng-bukit-bintang",
+    "file": "menara-keck-seng-bukit-bintang-01.webp",
+    "pdfPage": 46,
+    "embeddedAsset": "IM313.jpg",
+    "originalSha256": "4148248ded975f0ff0313648e06a43caf48b2b49085390f6a179f3026ee29fab",
+    "originalSize": [
+      1269,
+      1920
+    ]
+  },
+  {
+    "project": "menara-keck-seng-bukit-bintang",
+    "file": "menara-keck-seng-bukit-bintang-02.webp",
+    "pdfPage": 46,
+    "embeddedAsset": "IM314.jpg",
+    "originalSha256": "977c3493e28b3754a9c5fc32e16cc2d3ea964417b2e2ca19f19cc5a78c0e296e",
+    "originalSize": [
+      1273,
+      1920
+    ]
+  },
+  {
+    "project": "menara-keck-seng-bukit-bintang",
+    "file": "menara-keck-seng-bukit-bintang-03.webp",
+    "pdfPage": 46,
+    "embeddedAsset": "IM315.jpg",
+    "originalSha256": "5fa964cb704f89c13bcb3667df4d58de26c4923774662fc7bc9ba3042831eda5",
+    "originalSize": [
+      1273,
+      1920
+    ]
+  },
+  {
+    "project": "menara-keck-seng-bukit-bintang",
+    "file": "menara-keck-seng-bukit-bintang-04.webp",
+    "pdfPage": 47,
+    "embeddedAsset": "IM326.jpg",
+    "originalSha256": "5319842de625c66cfca35074b79e9039630c523ad80a3f8c8ac5480b372718e2",
+    "originalSize": [
+      2560,
+      1919
+    ]
+  },
+  {
+    "project": "menara-keck-seng-bukit-bintang",
+    "file": "menara-keck-seng-bukit-bintang-05.webp",
+    "pdfPage": 47,
+    "embeddedAsset": "IM327.jpg",
+    "originalSha256": "711c04a56dceac8b2e8c3a9152b1e612470df679a48a79f14347534a372de9dc",
+    "originalSize": [
+      2560,
+      1919
+    ]
+  },
+  {
+    "project": "menara-keck-seng-bukit-bintang",
+    "file": "menara-keck-seng-bukit-bintang-06.webp",
+    "pdfPage": 47,
+    "embeddedAsset": "IM328.jpg",
+    "originalSha256": "6e2f73e6fdd15c19d61dea849068f09d283323c3c328cdc659895ff2b48ff5cb",
+    "originalSize": [
+      2560,
+      1919
+    ]
+  },
+  {
+    "project": "menara-keck-seng-bukit-bintang",
+    "file": "menara-keck-seng-bukit-bintang-07.webp",
+    "pdfPage": 47,
+    "embeddedAsset": "IM329.jpg",
+    "originalSha256": "a1196de608e955db1e7bbcf7532816f854a7cbe7a243b15a47508d2c5472c096",
+    "originalSize": [
+      2560,
+      1919
+    ]
+  },
+  {
+    "project": "rotiboy-awam-besar",
+    "file": "rotiboy-awam-besar-01.webp",
+    "pdfPage": 48,
+    "embeddedAsset": "IM332.jpg",
+    "originalSha256": "dc4604ed82aea3224a179c390f8c001415b0c0754c0002ea1287f7f8022d5fa8",
+    "originalSize": [
+      1080,
+      802
+    ]
+  },
+  {
+    "project": "rotiboy-awam-besar",
+    "file": "rotiboy-awam-besar-02.webp",
+    "pdfPage": 48,
+    "embeddedAsset": "IM333.jpg",
+    "originalSha256": "dd3a814481a59e5412a70d1db4a460ebf3706db2ee8aaf8409c7245abf4d1b5e",
+    "originalSize": [
+      810,
+      923
+    ]
+  },
+  {
+    "project": "rotiboy-awam-besar",
+    "file": "rotiboy-awam-besar-03.webp",
+    "pdfPage": 48,
+    "embeddedAsset": "IM334.jpg",
+    "originalSha256": "d80a69a09613993ef46605fbd45fe60ada828ffe83f15a1ce591776f8cbe0299",
+    "originalSize": [
+      1080,
+      535
+    ]
+  },
+  {
+    "project": "d-quince-damansara-perdana",
+    "file": "d-quince-damansara-perdana-01.webp",
+    "pdfPage": 49,
+    "embeddedAsset": "IM337.jpg",
+    "originalSha256": "5f46f0d6a86853d272ba71db8ebd89bc86b289340d32ec7f3284f42341e2f128",
+    "originalSize": [
+      810,
+      607
+    ]
+  },
+  {
+    "project": "d-quince-damansara-perdana",
+    "file": "d-quince-damansara-perdana-02.webp",
+    "pdfPage": 49,
+    "embeddedAsset": "IM340.jpg",
+    "originalSha256": "fefa9cdf33b1453989c89df877e2930822be1efb132f0140c8467badf19535fc",
+    "originalSize": [
+      810,
+      997
+    ]
+  },
+  {
+    "project": "d-quince-damansara-perdana",
+    "file": "d-quince-damansara-perdana-03.webp",
+    "pdfPage": 49,
+    "embeddedAsset": "IM341.jpg",
+    "originalSha256": "03601486a022d99a134d0fa139d4129daaa5c9ad549577bf7ad24905788f22a2",
+    "originalSize": [
+      810,
+      1003
+    ]
+  },
+  {
+    "project": "d-quince-damansara-perdana",
+    "file": "d-quince-damansara-perdana-04.webp",
+    "pdfPage": 50,
+    "embeddedAsset": "IM344.jpg",
+    "originalSha256": "faf97a04619d6950a8152f3a0f2eacb9699e2c96e2a497333b7581835f8a4b43",
+    "originalSize": [
+      810,
+      634
+    ]
+  },
+  {
+    "project": "d-quince-damansara-perdana",
+    "file": "d-quince-damansara-perdana-05.webp",
+    "pdfPage": 50,
+    "embeddedAsset": "IM345.jpg",
+    "originalSha256": "4098f546b9d9092fd72281fa73cde083f2499ca8a9a291f99e2f3b6df98b99b4",
+    "originalSize": [
+      810,
+      578
+    ]
+  },
+  {
+    "project": "d-quince-damansara-perdana",
+    "file": "d-quince-damansara-perdana-06.webp",
+    "pdfPage": 50,
+    "embeddedAsset": "IM346.jpg",
+    "originalSha256": "0391a089c61b7bbd2b67d57de2e3aec2dabf72170450a65632a50c5dc432e418",
+    "originalSize": [
+      810,
+      891
+    ]
+  },
+  {
+    "project": "d-quince-damansara-perdana",
+    "file": "d-quince-damansara-perdana-07.webp",
+    "pdfPage": 50,
+    "embeddedAsset": "IM347.jpg",
+    "originalSha256": "c7d6db58129e8430827f597ebdf84556adc47f0a263e3a9cb9371ffc251ffa35",
+    "originalSize": [
+      810,
+      603
+    ]
+  },
+  {
+    "project": "desa-villa-taman-desa",
+    "file": "desa-villa-taman-desa-01.webp",
+    "pdfPage": 51,
+    "embeddedAsset": "IM350.jpg",
+    "originalSha256": "88fda2e45528f616a1e52c62395c0ee08c901f9f7c8c18c05b81328c50b2d872",
+    "originalSize": [
+      1212,
+      900
+    ]
+  },
+  {
+    "project": "desa-villa-taman-desa",
+    "file": "desa-villa-taman-desa-02.webp",
+    "pdfPage": 51,
+    "embeddedAsset": "IM351.jpg",
+    "originalSha256": "bd2a41a9db7f31b833d0ffa56be230986034c805d9176a63dcbd06cefaa19a0d",
+    "originalSize": [
+      790,
+      900
+    ]
+  },
+  {
+    "project": "desa-villa-taman-desa",
+    "file": "desa-villa-taman-desa-03.webp",
+    "pdfPage": 51,
+    "embeddedAsset": "IM352.jpg",
+    "originalSha256": "76dc6573b8ab9aaf82888fddadb1980300e12a01376290a80ac55432d1e9282c",
+    "originalSize": [
+      1500,
+      744
+    ]
+  },
+  {
+    "project": "desa-villa-taman-desa",
+    "file": "desa-villa-taman-desa-04.webp",
+    "pdfPage": 52,
+    "embeddedAsset": "IM357.jpg",
+    "originalSha256": "451f3db8f49269edbcc8caf9ef38bb8e0b54fa13373e1974940ad2eac9ab2cfb",
+    "originalSize": [
+      889,
+      810
+    ]
+  },
+  {
+    "project": "desa-villa-taman-desa",
+    "file": "desa-villa-taman-desa-05.webp",
+    "pdfPage": 52,
+    "embeddedAsset": "IM358.jpg",
+    "originalSha256": "cf2617aeddafcf202b21bbc5ce4989bf92c3cc7ff9bf18a9465e8150d9ec7d64",
+    "originalSize": [
+      889,
+      810
+    ]
+  },
+  {
+    "project": "desa-villa-taman-desa",
+    "file": "desa-villa-taman-desa-06.webp",
+    "pdfPage": 52,
+    "embeddedAsset": "IM359.jpg",
+    "originalSha256": "eac77b3c135e387fb00426c980380d30944ce6d7455ffae7888375c2f87e4030",
+    "originalSize": [
+      889,
+      810
+    ]
+  },
+  {
+    "project": "desa-villa-taman-desa",
+    "file": "desa-villa-taman-desa-07.webp",
+    "pdfPage": 52,
+    "embeddedAsset": "IM360.jpg",
+    "originalSha256": "c3355b971f6c97e08b7b2a35b16d3d15310cbfebfa022c2abc14ec4d34a9c1ee",
+    "originalSize": [
+      890,
+      810
+    ]
+  },
+  {
+    "project": "desa-villa-taman-desa",
+    "file": "desa-villa-taman-desa-08.webp",
+    "pdfPage": 53,
+    "embeddedAsset": "IM363.jpg",
+    "originalSha256": "4b387fbb31ad102010f48320a1cd76a095c11121769b9eba1fe2678bbaa862b2",
+    "originalSize": [
+      810,
+      607
+    ]
+  },
+  {
+    "project": "desa-villa-taman-desa",
+    "file": "desa-villa-taman-desa-09.webp",
+    "pdfPage": 53,
+    "embeddedAsset": "IM364.jpg",
+    "originalSha256": "759833d0a6c200f2f0e987108329d5d1da37b363b1a56cbd252c405aaf399ced",
+    "originalSize": [
+      810,
+      608
+    ]
+  },
+  {
+    "project": "desa-villa-taman-desa",
+    "file": "desa-villa-taman-desa-10.webp",
+    "pdfPage": 53,
+    "embeddedAsset": "IM365.jpg",
+    "originalSha256": "ee160bd5909eb4736742a4dc77663f0ac8285cd69b73f4a4efd0b6240d41dd28",
+    "originalSize": [
+      1080,
+      810
+    ]
+  },
+  {
+    "project": "desa-villa-taman-desa",
+    "file": "desa-villa-taman-desa-11.webp",
+    "pdfPage": 53,
+    "embeddedAsset": "IM366.jpg",
+    "originalSha256": "f2a72a62f4adb45c1344c395e27aa55e818bfe66ca05556a116fb7918d0118d9",
+    "originalSize": [
+      1080,
+      810
+    ]
+  },
+  {
+    "project": "dahlia-rawang",
+    "file": "dahlia-rawang-01.webp",
+    "pdfPage": 54,
+    "embeddedAsset": "IM369.jpg",
+    "originalSha256": "93820dda3e86c2434c36b3ff5bcc364e4340860595135fe3f21754d1f23a6f97",
+    "originalSize": [
+      810,
+      847
+    ]
+  },
+  {
+    "project": "dahlia-rawang",
+    "file": "dahlia-rawang-02.webp",
+    "pdfPage": 54,
+    "embeddedAsset": "IM370.jpg",
+    "originalSha256": "81fb542d0f18d62e74528ebc0660b5b180f57252e8a060738b1ea195eefed515",
+    "originalSize": [
+      679,
+      810
+    ]
+  },
+  {
+    "project": "dahlia-rawang",
+    "file": "dahlia-rawang-03.webp",
+    "pdfPage": 55,
+    "embeddedAsset": "IM373.jpg",
+    "originalSha256": "8b2ca421ac25e5b0391f80022c87008178c617a9783badf25fc69d50dee4672e",
+    "originalSize": [
+      589,
+      1080
+    ]
+  },
+  {
+    "project": "dahlia-rawang",
+    "file": "dahlia-rawang-04.webp",
+    "pdfPage": 55,
+    "embeddedAsset": "IM374.jpg",
+    "originalSha256": "422774a14b962ba940c20532607a7676a560f2ea36468ae508a76ef7495e5165",
+    "originalSize": [
+      810,
+      488
+    ]
+  },
+  {
+    "project": "dahlia-rawang",
+    "file": "dahlia-rawang-05.webp",
+    "pdfPage": 55,
+    "embeddedAsset": "IM375.jpg",
+    "originalSha256": "e648e57c235e496835dac964ab3045c4e9bfb8fd90aae253d774a26646b5158f",
+    "originalSize": [
+      810,
+      489
+    ]
+  },
+  {
+    "project": "dahlia-rawang",
+    "file": "dahlia-rawang-06.webp",
+    "pdfPage": 56,
+    "embeddedAsset": "IM378.jpg",
+    "originalSha256": "089fa87f87bc3601804f3584da34fd9fc97299bf98998faf30f50547a7ee9cfb",
+    "originalSize": [
+      810,
+      1080
+    ]
+  },
+  {
+    "project": "dahlia-rawang",
+    "file": "dahlia-rawang-07.webp",
+    "pdfPage": 56,
+    "embeddedAsset": "IM379.jpg",
+    "originalSha256": "06c673328e95675c1a5be944802e47acb25a2d261d78e7d5b942ce4874910740",
+    "originalSize": [
+      810,
+      1080
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-01.webp",
+    "pdfPage": 9,
+    "embeddedAsset": "IM82.jpg",
+    "originalSha256": "28833e2b3f14100ce3605b31aacfc9b100083375fbf6c50cc3d269aa19099a00",
+    "originalSize": [
+      2560,
+      1240
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-02.webp",
+    "pdfPage": 9,
+    "embeddedAsset": "IM83.jpg",
+    "originalSha256": "31626697b50a8b2bcc419afc268b86052e187e23a7ad41dd78b410374cd5f0c9",
+    "originalSize": [
+      2560,
+      1062
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-03.webp",
+    "pdfPage": 9,
+    "embeddedAsset": "IM88.jpg",
+    "originalSha256": "e32f9d079dcb672de5e2c68b8432fc47ea4276a052923cc091030247ccbee8b6",
+    "originalSize": [
+      2560,
+      1269
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-04.webp",
+    "pdfPage": 9,
+    "embeddedAsset": "IM89.jpg",
+    "originalSha256": "3d53c138a9b74091b13f54b34221918a106cd4e754c66ecabbe26e622cd8ac1d",
+    "originalSize": [
+      2560,
+      1315
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-05.webp",
+    "pdfPage": 10,
+    "embeddedAsset": "IM94.jpg",
+    "originalSha256": "3db4859d18e1de92c82ab753d312e71c8f61f93e28e92c90187b9a0689b1cbe1",
+    "originalSize": [
+      2522,
+      1920
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-06.webp",
+    "pdfPage": 10,
+    "embeddedAsset": "IM95.jpg",
+    "originalSha256": "5a541b82c989c0b9dce45771acdc942ac96089a2d6b33af6dbc033bf7cec431c",
+    "originalSize": [
+      2560,
+      1266
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-07.webp",
+    "pdfPage": 10,
+    "embeddedAsset": "IM96.jpg",
+    "originalSha256": "3d7e642a4843bda7ec1b8bbd90ca89185beb0da542cff5efed4712e2f60018b0",
+    "originalSize": [
+      728,
+      889
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-08.webp",
+    "pdfPage": 11,
+    "embeddedAsset": "IM100.jpg",
+    "originalSha256": "80a23872117769dd9a4f07ae444ad855ea8cd24deb79fef036e5bea9849decdc",
+    "originalSize": [
+      2560,
+      1678
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-09.webp",
+    "pdfPage": 11,
+    "embeddedAsset": "IM101.jpg",
+    "originalSha256": "32ad42c57d5eaa819b94d9f4018b44a285923be03909e9539caaea24d4aae677",
+    "originalSize": [
+      1366,
+      1920
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-10.webp",
+    "pdfPage": 11,
+    "embeddedAsset": "IM99.jpg",
+    "originalSha256": "7678d569b820c06d7714d025a78cce244009f94a01c308c9709b7bc6d0b24c67",
+    "originalSize": [
+      2560,
+      1815
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-11.webp",
+    "pdfPage": 12,
+    "embeddedAsset": "IM104.jpg",
+    "originalSha256": "31f490182a08c64b38fa21601f65dca2e575560d2d991ad6d9a95d32f11daab2",
+    "originalSize": [
+      2560,
+      1404
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-12.webp",
+    "pdfPage": 12,
+    "embeddedAsset": "IM105.jpg",
+    "originalSha256": "801f735e06824b7d8afb3d4cb3bfabad73334025c66569d4f2e451e8062459a1",
+    "originalSize": [
+      2522,
+      1920
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-13.webp",
+    "pdfPage": 12,
+    "embeddedAsset": "IM106.jpg",
+    "originalSha256": "b3ecbe71aafe2bc1228f57548aadf19dc005278f705457bcf63d702006a09629",
+    "originalSize": [
+      2560,
+      1266
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-14.webp",
+    "pdfPage": 12,
+    "embeddedAsset": "IM107.jpg",
+    "originalSha256": "a62c572f2f9862247f98569bbae55772ef4078ab424922903408fb73faefb3b9",
+    "originalSize": [
+      2383,
+      1920
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-15.webp",
+    "pdfPage": 13,
+    "embeddedAsset": "IM110.jpg",
+    "originalSha256": "f05ca4f00771fd7391119ceb451a7cc748aca07f397392be21110fa3bdf35164",
+    "originalSize": [
+      2560,
+      1865
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-16.webp",
+    "pdfPage": 13,
+    "embeddedAsset": "IM111.jpg",
+    "originalSha256": "3de3adbc45befce16435e7b954ac146cc67ba0e5eb98fc8041d46375dcb8a338",
+    "originalSize": [
+      2560,
+      1643
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-17.webp",
+    "pdfPage": 13,
+    "embeddedAsset": "IM112.jpg",
+    "originalSha256": "27c89be90cbef918c65cf39bca642b5543fad36d50f92705d07659779cde9b89",
+    "originalSize": [
+      1366,
+      1920
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-18.webp",
+    "pdfPage": 14,
+    "embeddedAsset": "IM115.jpg",
+    "originalSha256": "b65186674637fb5d7732b1fccc3d451fedc63b8d79d1aaa07acc9385638794e4",
+    "originalSize": [
+      1428,
+      1706
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-19.webp",
+    "pdfPage": 14,
+    "embeddedAsset": "IM117.jpg",
+    "originalSha256": "48f75f1d4a22196378a26dd90b97dbdd15a35e4230cf177478e04fbd6c5c3542",
+    "originalSize": [
+      1679,
+      1706
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-20.webp",
+    "pdfPage": 14,
+    "embeddedAsset": "IM118.jpg",
+    "originalSha256": "9891412a1a065eb3fa1a78af11e0fc4de89709f9fd10b99bf30e4e3a07200f6b",
+    "originalSize": [
+      1678,
+      1706
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-21.webp",
+    "pdfPage": 15,
+    "embeddedAsset": "IM121.jpg",
+    "originalSha256": "a0eee858c1376d741115891c3f53bec2950902844565686d95c691705e7c7121",
+    "originalSize": [
+      1679,
+      1706
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-22.webp",
+    "pdfPage": 15,
+    "embeddedAsset": "IM122.jpg",
+    "originalSha256": "dae29ccede5225f3e155a31b4aa2450c4e27c12eb6273e97fe3de9f0a22f63ea",
+    "originalSize": [
+      1679,
+      1706
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-23.webp",
+    "pdfPage": 15,
+    "embeddedAsset": "IM123.jpg",
+    "originalSha256": "b6e4fbdf435aa0066270057a099552bf6dfa6d3ffc59940b6874d9a571904b5c",
+    "originalSize": [
+      1428,
+      1706
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-24.webp",
+    "pdfPage": 16,
+    "embeddedAsset": "IM126.jpg",
+    "originalSha256": "69f7d42025ca385d56e60b776483dbb2c639a14ca790d0ce1dd35709fb07bb45",
+    "originalSize": [
+      2410,
+      1706
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-25.webp",
+    "pdfPage": 16,
+    "embeddedAsset": "IM127.jpg",
+    "originalSha256": "a5952241d012d85218a266ded4c9974bf63cf1b8ca85b23b37e1ac2f78ea262b",
+    "originalSize": [
+      2560,
+      1675
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-26.webp",
+    "pdfPage": 16,
+    "embeddedAsset": "IM128.jpg",
+    "originalSha256": "ed81d39040e1ba92695e3efa8357d7f12710d7a5eeeeed7a5a8adfd9f6275680",
+    "originalSize": [
+      1217,
+      1706
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-27.webp",
+    "pdfPage": 17,
+    "embeddedAsset": "IM131.jpg",
+    "originalSha256": "af048daf756f87d490359bdad18576d0fc4dc9cbb179e09f413fbe4670bd62d4",
+    "originalSize": [
+      1265,
+      1706
+    ]
+  },
+  {
+    "project": "shuyi-tanjung-malim",
+    "file": "shuyi-tanjung-malim-28.webp",
+    "pdfPage": 17,
+    "embeddedAsset": "IM132.jpg",
+    "originalSha256": "b0357965faab152bd99f0a32112039e79ec6e948c3a465fa59d327ba2d5cf4e5",
+    "originalSize": [
+      1266,
+      1706
+    ]
+  },
+  {
+    "project": "diamond-residence-semenyih",
+    "file": "diamond-residence-semenyih-01.webp",
+    "pdfPage": 60,
+    "embeddedAsset": "IM394.jpg",
+    "originalSha256": "786be15d917c14026aeb6c96c35b620f987043b9ca0b768176f7c6d300bbb8e5",
+    "originalSize": [
+      919,
+      800
+    ]
+  },
+  {
+    "project": "diamond-residence-semenyih",
+    "file": "diamond-residence-semenyih-02.webp",
+    "pdfPage": 60,
+    "embeddedAsset": "IM395.jpg",
+    "originalSha256": "bb8c9e204eab36cabb01bb763888944462fdb0e5d53670c5f506d7d37e1dea00",
+    "originalSize": [
+      924,
+      819
+    ]
+  },
+  {
+    "project": "diamond-residence-semenyih",
+    "file": "diamond-residence-semenyih-03.webp",
+    "pdfPage": 61,
+    "embeddedAsset": "IM399.jpg",
+    "originalSha256": "07cb198bcc1c9352fa174e929f7e336f3b98dfa7c6925d88dbc60e4ac41f4ee1",
+    "originalSize": [
+      1280,
+      742
+    ]
+  },
+  {
+    "project": "diamond-residence-semenyih",
+    "file": "diamond-residence-semenyih-04.webp",
+    "pdfPage": 61,
+    "embeddedAsset": "IM400.jpg",
+    "originalSha256": "e11664ca3dffc9879bc6cd7177f51a03d9417aa9ba13c910eef508d62c41f297",
+    "originalSize": [
+      960,
+      731
+    ]
+  },
+  {
+    "project": "diamond-residence-semenyih",
+    "file": "diamond-residence-semenyih-05.webp",
+    "pdfPage": 61,
+    "embeddedAsset": "IM401.jpg",
+    "originalSha256": "4929e678d37c86c41eb65d226d07a05d2f251b0fb82d9bba7a46d99d1bf205ca",
+    "originalSize": [
+      960,
+      733
+    ]
+  },
+  {
+    "project": "diamond-residence-semenyih",
+    "file": "diamond-residence-semenyih-06.webp",
+    "pdfPage": 61,
+    "embeddedAsset": "IM402.jpg",
+    "originalSha256": "5ccae0f3c62fdec4b9126280bb9ed23913b3a5a851561f73c2b659a58b8fc81b",
+    "originalSize": [
+      1280,
+      742
+    ]
+  },
+  {
+    "project": "diamond-residence-semenyih",
+    "file": "diamond-residence-semenyih-07.webp",
+    "pdfPage": 62,
+    "embeddedAsset": "IM405.jpg",
+    "originalSha256": "ff33782f971dda7534c02d670ef44067221ccaa7ae70e567d725507e6e154871",
+    "originalSize": [
+      2522,
+      1920
+    ]
+  },
+  {
+    "project": "diamond-residence-semenyih",
+    "file": "diamond-residence-semenyih-08.webp",
+    "pdfPage": 62,
+    "embeddedAsset": "IM406.jpg",
+    "originalSha256": "2fdd3155bc5cd47ec5620b2886aefadd4c2603f2dfc80dccafc5e880a48b5508",
+    "originalSize": [
+      2560,
+      1266
+    ]
+  },
+  {
+    "project": "diamond-residence-semenyih",
+    "file": "diamond-residence-semenyih-09.webp",
+    "pdfPage": 62,
+    "embeddedAsset": "IM407.jpg",
+    "originalSha256": "25a3aa9146fe0d06d7428b352dacefeba1cf4570e8a923731e67641bc46730fd",
+    "originalSize": [
+      1920,
+      2340
+    ]
+  },
+  {
+    "project": "logistics-warehouse-teluk-gong",
+    "file": "logistics-warehouse-teluk-gong-01.webp",
+    "pdfPage": 63,
+    "embeddedAsset": "IM410.jpg",
+    "originalSha256": "c25ec4f14cbb542c2bbff3c4fc22a7e124077c12d93dcf396bf96a68ad2eddba",
+    "originalSize": [
+      1201,
+      900
+    ]
+  },
+  {
+    "project": "logistics-warehouse-teluk-gong",
+    "file": "logistics-warehouse-teluk-gong-02.webp",
+    "pdfPage": 63,
+    "embeddedAsset": "IM411.jpg",
+    "originalSha256": "b6d59b0a9f6c2deb6222b29f0cc972fe0b76a8a4846b335f760fc8c2c194f09e",
+    "originalSize": [
+      1201,
+      900
+    ]
+  },
+  {
+    "project": "logistics-warehouse-teluk-gong",
+    "file": "logistics-warehouse-teluk-gong-03.webp",
+    "pdfPage": 63,
+    "embeddedAsset": "IM412.jpg",
+    "originalSha256": "1c0da74c9e5c5df958398d5a8d1f0b2b949760f1adf213f674b5fc6f3e181080",
+    "originalSize": [
+      1201,
+      900
+    ]
+  },
+  {
+    "project": "logistics-warehouse-teluk-gong",
+    "file": "logistics-warehouse-teluk-gong-04.webp",
+    "pdfPage": 63,
+    "embeddedAsset": "IM413.jpg",
+    "originalSha256": "65a1b0597579a52d2de3b4c6a244e6c7e601f3d4079865a424c5b7cff108728f",
+    "originalSize": [
+      1201,
+      900
+    ]
+  },
+  {
+    "project": "logistics-warehouse-teluk-gong",
+    "file": "logistics-warehouse-teluk-gong-05.webp",
+    "pdfPage": 64,
+    "embeddedAsset": "IM416.jpg",
+    "originalSha256": "758a81d5c1a222279003c1227c1f2a21529adc8a26b98133ffaae75d649897b7",
+    "originalSize": [
+      1080,
+      810
+    ]
+  },
+  {
+    "project": "pulau-ketam-floating-fish-cage",
+    "file": "pulau-ketam-floating-fish-cage-01.webp",
+    "pdfPage": 66,
+    "embeddedAsset": "IM431.jpg",
+    "originalSha256": "4a067822c1643bcf7544f7bdda63b05be836dab743a9e830f88e1a903e0eaae4",
+    "originalSize": [
+      559,
+      841
+    ]
+  },
+  {
+    "project": "pulau-ketam-floating-fish-cage",
+    "file": "pulau-ketam-floating-fish-cage-02.webp",
+    "pdfPage": 66,
+    "embeddedAsset": "IM432.jpg",
+    "originalSha256": "54379ceae7ba932c20c2e023861390c2955566e494b642348107060ff8806cd3",
+    "originalSize": [
+      548,
+      832
+    ]
+  },
+  {
+    "project": "pulau-ketam-floating-fish-cage",
+    "file": "pulau-ketam-floating-fish-cage-03.webp",
+    "pdfPage": 66,
+    "embeddedAsset": "IM433.jpg",
+    "originalSha256": "5751919b703ef4fb3d0c8fbcbdd894fd174247d8a8506133dcc31d644c6e742f",
+    "originalSize": [
+      733,
+      834
+    ]
+  },
+  {
+    "project": "pulau-ketam-floating-fish-cage",
+    "file": "pulau-ketam-floating-fish-cage-04.webp",
+    "pdfPage": 66,
+    "embeddedAsset": "IM434.jpg",
+    "originalSha256": "14742bb086ff29fb10de1cc97ef5986697b480264ac3af2d4d3f4d1f3ef4289d",
+    "originalSize": [
+      1080,
+      541
+    ]
+  },
+  {
+    "project": "pulau-ketam-floating-fish-cage",
+    "file": "pulau-ketam-floating-fish-cage-05.webp",
+    "pdfPage": 67,
+    "embeddedAsset": "IM437.jpg",
+    "originalSha256": "cdf067b165af8d79685e108951ab73eb28a7989adcecae564a1a1231ebbeed1c",
+    "originalSize": [
+      662,
+      497
+    ]
+  },
+  {
+    "project": "pulau-ketam-floating-fish-cage",
+    "file": "pulau-ketam-floating-fish-cage-06.webp",
+    "pdfPage": 67,
+    "embeddedAsset": "IM438.jpg",
+    "originalSha256": "17cc6136eab86c60b11864f40b34589ac545312940b6d0fb514a52d154008163",
+    "originalSize": [
+      973,
+      729
+    ]
+  },
+  {
+    "project": "pulau-ketam-floating-fish-cage",
+    "file": "pulau-ketam-floating-fish-cage-07.webp",
+    "pdfPage": 67,
+    "embeddedAsset": "IM439.jpg",
+    "originalSha256": "f0766de75debc2fd4bc887db2de0b6483ae9c1c661559361ef7bdcdd9244fe63",
+    "originalSize": [
+      875,
+      655
+    ]
+  },
+  {
+    "project": "pulau-ketam-floating-fish-cage",
+    "file": "pulau-ketam-floating-fish-cage-08.webp",
+    "pdfPage": 67,
+    "embeddedAsset": "IM440.jpg",
+    "originalSha256": "ce74c341562ae7ae02d0ca7636c2be984660af1befb4002ad6d5e86023000732",
+    "originalSize": [
+      644,
+      484
+    ]
+  },
+  {
+    "project": "pulau-ketam-floating-fish-cage",
+    "file": "pulau-ketam-floating-fish-cage-09.webp",
+    "pdfPage": 68,
+    "embeddedAsset": "IM443.jpg",
+    "originalSha256": "e974177bbce3d880513e72ed7e6119012c9e667f9f8e615803ad7d754424e11e",
+    "originalSize": [
+      531,
+      600
+    ]
+  },
+  {
+    "project": "pulau-ketam-floating-fish-cage",
+    "file": "pulau-ketam-floating-fish-cage-10.webp",
+    "pdfPage": 68,
+    "embeddedAsset": "IM444.jpg",
+    "originalSha256": "9f856472c3150610ba9becbe3ca03a2b5c3042717e413ea5c2295a813d1e00a0",
+    "originalSize": [
+      534,
+      600
+    ]
+  },
+  {
+    "project": "pulau-ketam-floating-fish-cage",
+    "file": "pulau-ketam-floating-fish-cage-11.webp",
+    "pdfPage": 68,
+    "embeddedAsset": "IM445.jpg",
+    "originalSha256": "4b5118ddb7b8467a11beaaad5526eb13b42372c27fcc24590df68b519a5c2d24",
+    "originalSize": [
+      532,
+      600
+    ]
+  },
+  {
+    "project": "pulau-ketam-floating-fish-cage",
+    "file": "pulau-ketam-floating-fish-cage-12.webp",
+    "pdfPage": 68,
+    "embeddedAsset": "IM446.jpg",
+    "originalSha256": "1e83a2bf15a21157158a3949878368614d1e37e43e06e554fecd7627208310ee",
+    "originalSize": [
+      531,
+      600
+    ]
+  },
+  {
+    "project": "pulau-ketam-floating-fish-cage",
+    "file": "pulau-ketam-floating-fish-cage-13.webp",
+    "pdfPage": 68,
+    "embeddedAsset": "IM447.jpg",
+    "originalSha256": "878cb1c8b64f138c03361df501358e38e0d98fbcf1c359fc572201203c06d97a",
+    "originalSize": [
+      534,
+      600
+    ]
+  },
+  {
+    "project": "pulau-ketam-floating-fish-cage",
+    "file": "pulau-ketam-floating-fish-cage-14.webp",
+    "pdfPage": 68,
+    "embeddedAsset": "IM448.jpg",
+    "originalSha256": "0ee0dff7703ed6d3515e09058fc99da6795fdec61cc87a0c9c0cb6809f852d2f",
+    "originalSize": [
+      530,
+      600
+    ]
+  },
+  {
+    "project": "the-pearl-klcc",
+    "file": "the-pearl-klcc-01.webp",
+    "pdfPage": 69,
+    "embeddedAsset": "IM459.jpg",
+    "originalSha256": "a0c807830ee14070805668000e9c450b150e21f8843d2f3c8637e86b3066c835",
+    "originalSize": [
+      1469,
+      1127
+    ]
+  },
+  {
+    "project": "the-pearl-klcc",
+    "file": "the-pearl-klcc-02.webp",
+    "pdfPage": 69,
+    "embeddedAsset": "IM460.jpg",
+    "originalSha256": "182b841f2a608564a48f4822a64bc0465a5eb4ccfac2e000f915f7a667c2ba77",
+    "originalSize": [
+      1361,
+      1127
+    ]
+  },
+  {
+    "project": "the-pearl-klcc",
+    "file": "the-pearl-klcc-03.webp",
+    "pdfPage": 69,
+    "embeddedAsset": "IM461.jpg",
+    "originalSha256": "1993f9774bf92168fb647beca846253c231d921c92d7d94f66d0c8ed2cad1a2b",
+    "originalSize": [
+      1378,
+      1127
+    ]
+  },
+  {
+    "project": "the-pearl-klcc",
+    "file": "the-pearl-klcc-04.webp",
+    "pdfPage": 69,
+    "embeddedAsset": "IM462.jpg",
+    "originalSha256": "4a7463106311b2150d339e116216d0c44c5e733e95927ab122c121ad23669077",
+    "originalSize": [
+      1378,
+      1127
+    ]
+  },
+  {
+    "project": "the-pearl-klcc",
+    "file": "the-pearl-klcc-05.webp",
+    "pdfPage": 70,
+    "embeddedAsset": "IM465.jpg",
+    "originalSha256": "da2b0f20b4aed7b4b644974f706bc6bc14a7f22ffb17e47e11645e81e18cba24",
+    "originalSize": [
+      1758,
+      1127
+    ]
+  },
+  {
+    "project": "the-pearl-klcc",
+    "file": "the-pearl-klcc-06.webp",
+    "pdfPage": 70,
+    "embeddedAsset": "IM466.jpg",
+    "originalSha256": "7a13b49e4340ad7549b62ea09e96b0fa3642ca1abd39457feff4aca7433140a4",
+    "originalSize": [
+      1757,
+      1127
+    ]
+  },
+  {
+    "project": "the-pearl-klcc",
+    "file": "the-pearl-klcc-07.webp",
+    "pdfPage": 70,
+    "embeddedAsset": "IM467.jpg",
+    "originalSha256": "705ef53c0e718d7947cf3322c006239413586c5f1430c029ce1df9182c4b46f4",
+    "originalSize": [
+      1752,
+      1127
+    ]
+  },
+  {
+    "project": "the-pearl-klcc",
+    "file": "the-pearl-klcc-08.webp",
+    "pdfPage": 70,
+    "embeddedAsset": "IM468.jpg",
+    "originalSha256": "2587d45bc42733dbb33d43f9134deb216c960e8dd88c41988be6c81c79b77eb9",
+    "originalSize": [
+      1751,
+      1127
+    ]
+  },
+  {
+    "project": "the-pearl-klcc",
+    "file": "the-pearl-klcc-09.webp",
+    "pdfPage": 71,
+    "embeddedAsset": "IM471.jpg",
+    "originalSha256": "66b67c3b02cb91995d1a90ed04c3539103fd70673d23403f4137691ee65d9c5e",
+    "originalSize": [
+      1547,
+      1127
+    ]
+  },
+  {
+    "project": "the-pearl-klcc",
+    "file": "the-pearl-klcc-10.webp",
+    "pdfPage": 71,
+    "embeddedAsset": "IM472.jpg",
+    "originalSha256": "4324868033ee2e7eb7acb682d23529da0ad70b04cee9e81dc051d404d4b1eb61",
+    "originalSize": [
+      1545,
+      1127
+    ]
+  },
+  {
+    "project": "the-pearl-klcc",
+    "file": "the-pearl-klcc-11.webp",
+    "pdfPage": 71,
+    "embeddedAsset": "IM473.jpg",
+    "originalSha256": "ecc23d0ab1339cfbb9ed4bc960729c646b840f85ced98767b4e4849c19f2c186",
+    "originalSize": [
+      1755,
+      1127
+    ]
+  },
+  {
+    "project": "the-pearl-klcc",
+    "file": "the-pearl-klcc-12.webp",
+    "pdfPage": 71,
+    "embeddedAsset": "IM474.jpg",
+    "originalSha256": "82014689547cb08524b5cd69ae252706268a9a227148acc2a1efc93f9780e960",
+    "originalSize": [
+      1753,
+      1127
+    ]
+  },
+  {
+    "project": "the-pearl-klcc",
+    "file": "the-pearl-klcc-13.webp",
+    "pdfPage": 72,
+    "embeddedAsset": "IM477.jpg",
+    "originalSha256": "3c35bfe4113433f267297c4362cd313cd2e71d476e90b6f782cb691d8b89c0f4",
+    "originalSize": [
+      1396,
+      1127
+    ]
+  },
+  {
+    "project": "the-pearl-klcc",
+    "file": "the-pearl-klcc-14.webp",
+    "pdfPage": 72,
+    "embeddedAsset": "IM478.jpg",
+    "originalSha256": "1b9d6f5460867ca2991e9404cfc9131a77864f199a21dd9b802c8677c5d6cdca",
+    "originalSize": [
+      1775,
+      1127
+    ]
+  },
+  {
+    "project": "the-pearl-klcc",
+    "file": "the-pearl-klcc-15.webp",
+    "pdfPage": 72,
+    "embeddedAsset": "IM479.jpg",
+    "originalSha256": "5d27f3564deee97f87a44aa31cbca92227857859e8d9d6c16b123712fdf5e8fa",
+    "originalSize": [
+      1852,
+      1127
+    ]
+  },
+  {
+    "project": "the-pearl-klcc",
+    "file": "the-pearl-klcc-16.webp",
+    "pdfPage": 72,
+    "embeddedAsset": "IM480.jpg",
+    "originalSha256": "ec889c1755798dd9bbdef6c6eebae7bafbc945194b585b37add3f9b917a5a2e1",
+    "originalSize": [
+      1704,
+      1127
+    ]
+  },
+  {
+    "project": "the-pearl-klcc",
+    "file": "the-pearl-klcc-17.webp",
+    "pdfPage": 72,
+    "embeddedAsset": "IM481.jpg",
+    "originalSha256": "30c807e2aac3a8e532528d830fd24054cfa2679e15a1add95dddafa2f6370e81",
+    "originalSize": [
+      2000,
+      820
+    ]
+  }
+]

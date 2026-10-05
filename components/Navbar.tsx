@@ -41,7 +41,7 @@ export const Navbar: React.FC = () => {
 
           {/* Desktop Navigation Links - Older-Adult Friendly font size (>= 18px) */}
           <nav
-            className="hidden md:flex items-center gap-8 lg:gap-10"
+            className="hidden xl:flex items-center gap-4 2xl:gap-6"
             aria-label="Main Navigation"
           >
             <Link
@@ -62,10 +62,16 @@ export const Navbar: React.FC = () => {
             >
               Portfolio
             </Link>
+<Link
+              href="/contact"
+              className="text-[18px] lg:text-[19px] font-semibold text-stone-800 hover:text-[#254228] transition-colors py-2 px-1 focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-[#B89047] rounded-md"
+            >
+              Contact
+            </Link>
           </nav>
 
           {/* Action CTAs: Desktop WhatsApp Enquiry Button */}
-          <div className="hidden md:flex items-center gap-3">
+          <div className="hidden xl:flex items-center gap-3">
             <a
               href={getWhatsAppUrl("Hello Benedict Tan, I would like to make an enquiry regarding a renovation or construction project.")}
               target="_blank"
@@ -78,7 +84,7 @@ export const Navbar: React.FC = () => {
           </div>
 
           {/* Mobile Menu Toggle Button (Clearly Labelled & >= 48px Target) */}
-          <div className="flex md:hidden items-center gap-2">
+          <div className="flex xl:hidden items-center gap-2">
             <a
               href={getWhatsAppUrl("Hello Benedict Tan, I would like to make an enquiry.")}
               target="_blank"
@@ -107,7 +113,7 @@ export const Navbar: React.FC = () => {
       {isOpen && (
         <div
           id="mobile-menu"
-          className="md:hidden border-t border-stone-200 bg-[#FAF8F5] px-4 pt-3 pb-6 space-y-3 shadow-lg"
+          className="xl:hidden border-t border-stone-200 bg-[#FAF8F5] px-4 pt-3 pb-6 space-y-3 shadow-lg"
         >
           <div className="flex flex-col space-y-2">
             <Link
@@ -130,6 +136,13 @@ export const Navbar: React.FC = () => {
               className="text-[19px] font-semibold text-stone-800 hover:text-[#254228] py-3 px-3 rounded-lg hover:bg-stone-100 min-h-[48px] flex items-center"
             >
               Portfolio
+            </Link>
+<Link
+              href="/contact"
+              onClick={closeMenu}
+              className="text-[19px] font-semibold text-stone-800 hover:text-[#254228] py-3 px-3 rounded-lg hover:bg-stone-100 min-h-[48px] flex items-center"
+            >
+              Contact
             </Link>
           </div>
 

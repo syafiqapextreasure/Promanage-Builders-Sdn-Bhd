@@ -157,7 +157,7 @@ export const ServicesSection: React.FC = () => {
             href="/services"
             className="inline-flex items-center gap-2 min-h-[48px] px-6 py-3 rounded-lg border-2 border-[#27482A] text-[#27482A] bg-white font-bold text-[17px] hover:bg-[#27482A] hover:text-white transition-all shrink-0 focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-[#B89047]"
           >
-            <span>View Dedicated Services Page</span>
+            <span>Explore Our Services</span>
             <ArrowRight className="w-5 h-5" />
           </Link>
         </div>
@@ -199,9 +199,6 @@ export const ServicesSection: React.FC = () => {
                           </h3>
                         </div>
                       </div>
-                      <span className="text-xs font-mono text-stone-200 bg-black/60 px-2.5 py-1 rounded">
-                        {service.pdfPages}
-                      </span>
                     </div>
                   </div>
                 </div>
@@ -233,7 +230,7 @@ export const ServicesSection: React.FC = () => {
                       <div className="pt-4 border-t border-stone-200 space-y-4">
                         <div>
                           <h4 className="text-xs font-bold uppercase tracking-wider text-stone-500 mb-2">
-                            Notable Projects in Profile
+                            Selected Projects
                           </h4>
                           <ul className="space-y-1 text-[15px] text-stone-700">
                             {service.sampleWorks.map((work, idx) => (

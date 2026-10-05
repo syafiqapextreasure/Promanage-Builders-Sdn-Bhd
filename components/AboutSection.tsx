@@ -1,12 +1,13 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
+import { SITE_IMAGES } from '@/lib/project-images';
 import { getWhatsAppUrl, PROMANAGE_CONTACT } from '@/lib/whatsapp';
 import { ShieldCheck, UserCheck, Ruler, Clock, MessageSquare, Info, MapPin } from 'lucide-react';
-import DevNotesModal from './DevNotesModal';
+
 
 export const AboutSection: React.FC = () => {
-  const [showNotes, setShowNotes] = useState(false);
+
 
   return (
     <section id="about" className="py-16 md:py-24 bg-[#FAF8F5] border-b border-stone-200">
@@ -84,15 +85,6 @@ export const AboutSection: React.FC = () => {
                 <MessageSquare className="w-5 h-5 text-amber-300" aria-hidden="true" />
                 <span>Contact Benedict Tan</span>
               </a>
-
-              <button
-                type="button"
-                onClick={() => setShowNotes(true)}
-                className="inline-flex items-center gap-2 min-h-[48px] px-4 py-3 rounded-lg border border-stone-300 text-stone-700 text-[16px] font-semibold hover:bg-stone-100 transition-colors focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-[#B89047]"
-              >
-                <Info className="w-4 h-4 text-stone-500" aria-hidden="true" />
-                <span>Company Profile & Attribution Notes</span>
-              </button>
             </div>
           </div>
 
@@ -102,28 +94,25 @@ export const AboutSection: React.FC = () => {
               <div className="border-b border-stone-200 pb-3 flex items-center justify-between">
                 <div>
                   <span className="text-xs font-bold uppercase tracking-wider text-stone-500">
-                    Documented Project Showcase
+                    Project Showcase
                   </span>
                   <h3 className="text-xl font-bold text-stone-900">
                     Rimbayu Robin Landed Residence
                   </h3>
                 </div>
-                <span className="text-xs font-mono text-stone-600 bg-stone-100 px-2 py-1 rounded">
-                  Pages 20–23
-                </span>
               </div>
 
               {/* Real Project Image */}
               <div className="relative aspect-[16/10] rounded-xl overflow-hidden shadow-inner border border-stone-200">
                 <img
-                  src="/images/project_rimbayu_landed_1791179993277.jpg"
+                  src={SITE_IMAGES.rimbayuLanded}
                   alt="Rimbayu Robin landed home interior carpentry and open dry kitchen"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-3">
                   <span className="text-xs font-semibold text-white">
-                    Site Completion Photography · Teluk Panglima
+                    Rimbayu Robin · Teluk Panglima
                   </span>
                 </div>
               </div>
@@ -153,7 +142,7 @@ export const AboutSection: React.FC = () => {
         </div>
       </div>
 
-      {showNotes && <DevNotesModal onClose={() => setShowNotes(false)} />}
+      
     </section>
   );
 };

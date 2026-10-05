@@ -88,7 +88,7 @@ export default function ServicesPage() {
                   </div>
                   <div>
                     <span className="font-mono text-xs font-bold text-[#8A6A2C] uppercase tracking-wider block">
-                      Domain 01 · PDF Pages 4, 18–21, 24–28
+                      Domain 01
                     </span>
                     <h2 className="text-3xl sm:text-4xl font-extrabold text-[#1F2722] tracking-tight">
                       Interior Design & Space Planning
@@ -156,7 +156,7 @@ export default function ServicesPage() {
                       referrerPolicy="no-referrer"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-5 text-white">
-                      <span className="text-xs font-mono text-amber-300">Featured Showcase · Page 19</span>
+                      <span className="text-xs font-mono text-amber-300">Featured Project</span>
                       <h4 className="text-xl font-bold">D&apos;Cosmos @ Damansara Perdana</h4>
                       <p className="text-stone-300 text-xs mt-0.5">
                         Curved cove lighting, fluted reeded glass partitions, and seamless dry kitchen island.
@@ -184,7 +184,7 @@ export default function ServicesPage() {
                       referrerPolicy="no-referrer"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-5 text-white">
-                      <span className="text-xs font-mono text-amber-300">Featured Showcase · Pages 51–53</span>
+                      <span className="text-xs font-mono text-amber-300">Featured Project</span>
                       <h4 className="text-xl font-bold">Desa Villa @ Taman Desa</h4>
                       <p className="text-stone-300 text-xs mt-0.5">
                         Comprehensive wet and dry kitchen remodel, banquette dining nook, and bathroom tiling overhaul.
@@ -201,7 +201,7 @@ export default function ServicesPage() {
                   </div>
                   <div>
                     <span className="font-mono text-xs font-bold text-[#8A6A2C] uppercase tracking-wider block">
-                      Domain 02 · PDF Pages 5, 22–23, 31–34, 48–56
+                      Domain 02
                     </span>
                     <h2 className="text-3xl sm:text-4xl font-extrabold text-[#1F2722] tracking-tight">
                       Renovation & Repairs
@@ -272,7 +272,7 @@ export default function ServicesPage() {
                   </div>
                   <div>
                     <span className="font-mono text-xs font-bold text-[#8A6A2C] uppercase tracking-wider block">
-                      Domain 03 · PDF Pages 5, 9–17, 44–45, 60–64
+                      Domain 03
                     </span>
                     <h2 className="text-3xl sm:text-4xl font-extrabold text-[#1F2722] tracking-tight">
                       Construction & Structural Works
@@ -340,7 +340,7 @@ export default function ServicesPage() {
                       referrerPolicy="no-referrer"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-5 text-white">
-                      <span className="text-xs font-mono text-amber-300">Featured Showcase · Pages 60–62</span>
+                      <span className="text-xs font-mono text-amber-300">Featured Project</span>
                       <h4 className="text-xl font-bold">Diamond Residence @ Semenyih</h4>
                       <p className="text-stone-300 text-xs mt-0.5">
                         Multi-storey classical bungalow extension: RC columns, scaffolding framework, and terrace slab pouring.
@@ -368,7 +368,7 @@ export default function ServicesPage() {
                       referrerPolicy="no-referrer"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-5 text-white">
-                      <span className="text-xs font-mono text-amber-300">Featured Showcase · Pages 9–17</span>
+                      <span className="text-xs font-mono text-amber-300">Featured Project</span>
                       <h4 className="text-xl font-bold">ShuYi @ Tanjung Malim</h4>
                       <p className="text-stone-300 text-xs mt-0.5">
                         Coordinating multi-contractor civil earthworks, bridge shoring, building construction, and event hall fit-out.
@@ -385,7 +385,7 @@ export default function ServicesPage() {
                   </div>
                   <div>
                     <span className="font-mono text-xs font-bold text-[#8A6A2C] uppercase tracking-wider block">
-                      Domain 04 · PDF Pages 6–7
+                      Domain 04
                     </span>
                     <h2 className="text-3xl sm:text-4xl font-extrabold text-[#1F2722] tracking-tight">
                       Project Management & Quality Assurance

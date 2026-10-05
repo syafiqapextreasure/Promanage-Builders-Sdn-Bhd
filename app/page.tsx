@@ -7,7 +7,7 @@ import ServicesSection from '@/components/ServicesSection';
 import PortfolioSection from '@/components/PortfolioSection';
 import CustomerJourneySection from '@/components/CustomerJourneySection';
 import FaqSection from '@/components/FaqSection';
-import EnquirySection from '@/components/EnquirySection';
+import Link from 'next/link';
 import Footer from '@/components/Footer';
 import FloatingWhatsApp from '@/components/FloatingWhatsApp';
 
@@ -41,7 +41,7 @@ export default function HomePage() {
         <FaqSection />
 
         {/* 8. Enquiry Section with Contact Details & WhatsApp Form */}
-        <EnquirySection />
+        <section className="bg-[#27482A] px-4 py-16 text-center text-white"><h2 className="text-3xl font-bold sm:text-4xl">Ready to Plan Your Project?</h2><p className="mx-auto mt-4 max-w-2xl text-xl leading-relaxed">Tell us about your space and what you have in mind.</p><Link href="/contact" className="mt-6 inline-flex min-h-14 items-center rounded-lg bg-white px-7 text-lg font-semibold text-[#27482A] hover:bg-stone-100">Contact Us</Link></section>
       </main>
 
       {/* 9. Footer */}

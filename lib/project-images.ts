@@ -1,10 +1,10 @@
 export const SITE_IMAGES = {
-  heroAradia: '/images/hero_aradia_interior_1791179962553.jpg',
-  aradiaLiving: '/images/project_aradia_living_1791179973357.jpg',
-  dcosmosMinimalist: '/images/project_dcosmos_minimalist_1791179983861.jpg',
-  rimbayuLanded: '/images/project_rimbayu_landed_1791179993277.jpg',
-  ikhasasOffice: '/images/project_ikhasas_office_1791180003262.jpg',
-  shuyiHall: '/images/project_shuyi_hall_1791180015433.jpg',
-  desaVillaKitchen: '/images/project_desa_villa_kitchen_1791180025767.jpg',
-  diamondConstruction: '/images/project_diamond_construction_1791180036995.jpg'
+  "heroAradia": "/images/projects/aradia-lake-city-04.webp",
+  "aradiaLiving": "/images/projects/aradia-lake-city-01.webp",
+  "dcosmosMinimalist": "/images/projects/d-cosmos-damansara-perdana-01.webp",
+  "rimbayuLanded": "/images/projects/rimbayu-robin-teluk-panglima-10.webp",
+  "ikhasasOffice": "/images/projects/ikhasas-group-hq-01.webp",
+  "shuyiHall": "/images/projects/shuyi-tanjung-malim-22.webp",
+  "desaVillaKitchen": "/images/projects/desa-villa-taman-desa-03.webp",
+  "diamondConstruction": "/images/projects/diamond-residence-semenyih-03.webp"
 };

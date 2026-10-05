@@ -51,7 +51,7 @@ export const Hero: React.FC = () => {
             </p>
 
             {/* CTAs: Primary & Secondary */}
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-1">
+            <div className="flex flex-wrap items-center gap-4 pt-1">
               <a
                 href={whatsappUrl}
                 target="_blank"
@@ -59,14 +59,14 @@ export const Hero: React.FC = () => {
                 className="inline-flex items-center justify-center gap-3 min-h-[52px] px-8 py-3.5 rounded-lg bg-[#27482A] text-white text-[19px] font-semibold shadow-md hover:bg-[#1C351E] active:scale-[0.99] transition-all focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-[#B89047]"
               >
                 <MessageSquare className="w-5 h-5 text-amber-300" aria-hidden="true" />
-                <span>Discuss Your Project on WhatsApp</span>
+                <span className="whitespace-nowrap">Discuss on WhatsApp</span>
               </a>
 
               <Link
                 href="/portfolio"
                 className="inline-flex items-center justify-center gap-2 min-h-[52px] px-7 py-3.5 rounded-lg border-2 border-stone-400 bg-white text-stone-800 text-[19px] font-semibold hover:bg-stone-50 hover:border-stone-600 transition-all focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-[#B89047]"
               >
-                <span>Explore Our Work</span>
+                <span className="whitespace-nowrap">Explore Our Work</span>
                 <ArrowRight className="w-4 h-4 text-stone-600" aria-hidden="true" />
               </Link>
             </div>
@@ -79,20 +79,20 @@ export const Hero: React.FC = () => {
                   View Full Scope →
                 </Link>
               </div>
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-stone-900 font-semibold text-[16px] sm:text-[17px]">
-                <div className="flex items-center gap-2">
+              <div className="flex flex-wrap gap-x-5 gap-y-3 text-stone-900 font-semibold text-[16px] sm:text-[17px]">
+                <div className="flex items-center gap-2 whitespace-nowrap">
                   <div className="w-2 h-2 rounded-full bg-[#B89047]" />
                   <span>Interior Design</span>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 whitespace-nowrap">
                   <div className="w-2 h-2 rounded-full bg-[#27482A]" />
                   <span>Renovation</span>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 whitespace-nowrap">
                   <div className="w-2 h-2 rounded-full bg-[#B89047]" />
                   <span>Construction</span>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 whitespace-nowrap">
                   <div className="w-2 h-2 rounded-full bg-[#27482A]" />
                   <span>Project Mgmt</span>
                 </div>
@@ -116,10 +116,7 @@ export const Hero: React.FC = () => {
                 {/* Badge Overlay */}
                 <div className="absolute top-4 left-4 right-4 flex items-center justify-between">
                   <span className="bg-black/60 backdrop-blur-md border border-white/20 text-white text-xs font-semibold px-3 py-1.5 rounded-md">
-                    Featured Profile Project: Aradia @ Lake City
-                  </span>
-                  <span className="bg-[#B89047] text-stone-950 text-xs font-bold px-2.5 py-1 rounded font-mono">
-                    PDF Pages 18, 31–32
+                    Featured Project: Aradia @ Lake City
                   </span>
                 </div>
 
@@ -129,7 +126,7 @@ export const Hero: React.FC = () => {
                     Residential Interior & Custom Joinery
                   </h3>
                   <p className="text-stone-300 text-sm mt-1 line-clamp-2">
-                    Warm fluted oak panelling, integrated ambient LED cove lighting, marble floors, and tailored open dry kitchen cabinetry.
+                    Original interiors, thoughtful space planning and custom kitchen cabinetry.
                   </p>
                 </div>
               </div>
