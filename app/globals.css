@@ -201,4 +201,4 @@ section[id] { scroll-margin-top:110px; }
 
 @media(min-width:1051px) { .mobile-nav { display:none; } }
 
-.brand-secondary-name { font-size:16px; font-weight:500; line-height:1.4; color:var(--ink); }
+.brand-secondary-name { text-transform:uppercase; }

@@ -15,7 +15,7 @@ export const Logo: React.FC<LogoProps> = ({ variant = 'dark', showRegistration =
     <LogoEmblem size={size === 'sm' ? 38 : size === 'lg' ? 56 : 46} />
     <div className="brand-text">
       <span className="brand-name">PROMANAGE BUILDERS <span className="brand-suffix">SDN BHD</span></span>
-      {secondaryName && <span className="brand-secondary-name">{secondaryName}</span>}
+      {secondaryName && <span className="brand-name brand-secondary-name">{secondaryName}</span>}
       {showTagline && <span className="brand-tagline">Building spaces for a better tomorrow</span>}
       {showRegistration && <span className="brand-registration">202401013030 (1558880-H)</span>}
     </div>
