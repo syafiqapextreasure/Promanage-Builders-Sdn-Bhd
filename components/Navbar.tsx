@@ -12,7 +12,7 @@ export default function Navbar() {
     <Link href="/" aria-label="Promanage Builders home" className="brand-link"><Logo variant="light" showRegistration={false} /></Link>
     <nav className="desktop-nav" aria-label="Main navigation">{links.map(([name, href]) => <Link key={name} href={href}>{name}</Link>)}</nav>
     <a className="button button-gold header-enquiry" href={getWhatsAppUrl()} target="_blank" rel="noopener noreferrer"><MessageCircle size={21} aria-hidden="true" /><span>WhatsApp</span></a>
-    <button className="menu-toggle" type="button" aria-expanded={open} aria-controls="mobile-navigation" onClick={() => setOpen(!open)}>{open ? <X aria-hidden="true" /> : <Menu aria-hidden="true" />}<span>{open ? 'Close' : 'Menu'}</span></button>
+    <button className="menu-toggle" type="button" aria-label={open ? 'Close menu' : 'Open menu'} aria-expanded={open} aria-controls="mobile-navigation" onClick={() => setOpen(!open)}>{open ? <X aria-hidden="true" /> : <Menu aria-hidden="true" />}</button>
     </div>{open && <nav id="mobile-navigation" className="mobile-nav container" aria-label="Mobile navigation">{links.map(([name, href]) => <Link key={name} href={href} onClick={() => setOpen(false)}>{name}</Link>)}<a href={getWhatsAppUrl()} target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)}>Discuss on WhatsApp <MessageCircle aria-hidden="true" /></a></nav>}
   </header>;
 }
