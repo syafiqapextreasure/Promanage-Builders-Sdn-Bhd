@@ -207,7 +207,7 @@ section[id] { scroll-margin-top:110px; }
   .brand-link { flex:1; }
   .brand-link .brand { gap:8px; }
   .brand-link img { width:36px!important; height:40px!important; }
-  .brand-link .brand-name { font-size:clamp(9px,2.8vw,12px); white-space:nowrap; letter-spacing:0; }
+  .brand-link .brand-name { font-size:clamp(10px,3.5vw,16px); white-space:nowrap; letter-spacing:0; }
   .brand-link .brand-suffix { display:inline; }
   .brand-link .brand-tagline { font-size:clamp(7.5px,2.25vw,10px); white-space:nowrap; max-width:none; letter-spacing:0; }
   .menu-toggle { flex-shrink:0; min-width:44px; justify-content:center; padding:8px; }
