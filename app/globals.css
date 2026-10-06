@@ -200,3 +200,5 @@ section[id] { scroll-margin-top:110px; }
 @media(max-width:600px) { .brand-link { min-width:0; }.brand-link .brand { gap:9px; }.brand-link img { width:44px!important; height:48px!important; }.brand-name { font-size:14px; white-space:normal; }.brand-suffix { display:block; }.brand-tagline { font-size:11px; letter-spacing:.025em; max-width:210px; }.brand-text { gap:3px; }.header-inner { gap:12px; }.brand-sm .brand-suffix { display:inline; }.brand-sm .brand-tagline { font-size:11px; } }
 
 @media(min-width:1051px) { .mobile-nav { display:none; } }
+
+.brand-secondary-name { font-size:16px; font-weight:500; line-height:1.4; color:var(--ink); }
