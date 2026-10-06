@@ -1,54 +1,22 @@
-import React from 'react';
-import Navbar from '@/components/Navbar';
-import Hero from '@/components/Hero';
-import ExpertiseStrip from '@/components/ExpertiseStrip';
-import AboutSection from '@/components/AboutSection';
-import ServicesSection from '@/components/ServicesSection';
-import PortfolioSection from '@/components/PortfolioSection';
-import CustomerJourneySection from '@/components/CustomerJourneySection';
-import FaqSection from '@/components/FaqSection';
 import Link from 'next/link';
+import { ArrowRight, ClipboardList, Lightbulb, HardHat, MessageCircle } from 'lucide-react';
+import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import FloatingWhatsApp from '@/components/FloatingWhatsApp';
-
+import Reveal from '@/components/Reveal';
+import MaintenanceFeature from '@/components/MaintenanceFeature';
+import { RenderCarousel, VideoPlayer } from '@/components/MediaShowcase';
+import ProjectGallery from '@/components/ProjectGallery';
+import { SERVICES } from '@/data/services';
+import { getWhatsAppUrl } from '@/lib/whatsapp';
 export default function HomePage() {
-  return (
-    <div className="min-h-screen flex flex-col bg-[#FAF8F5] text-stone-900 selection:bg-[#B89047]/30 selection:text-stone-900">
-      {/* Sticky Glass Navigation Bar */}
-      <Navbar />
-
-      {/* Main Content Sections - Strictly ordered according to requirements */}
-      <main id="main-content" className="flex-1">
-        {/* 1. Hero */}
-        <Hero />
-
-        {/* 2. Compact Four-Expertise Strip */}
-        <ExpertiseStrip />
-
-        {/* 3. About */}
-        <AboutSection />
-
-        {/* 4. Services (Four Clear Cards with Expandable Details) */}
-        <ServicesSection />
-
-        {/* 5. Featured Portfolio & Accessible Gallery */}
-        <PortfolioSection />
-
-        {/* 6. Suggested Customer Journey (Discuss → Plan & Design → Build & Coordinate → Review & Handover) */}
-        <CustomerJourneySection />
-
-        {/* 7. Short FAQ (Offered Services, Consultation Preparation, Scope & Cost Timing) */}
-        <FaqSection />
-
-        {/* 8. Enquiry Section with Contact Details & WhatsApp Form */}
-        <section className="bg-[#27482A] px-4 py-16 text-center text-white"><h2 className="text-3xl font-bold sm:text-4xl">Ready to Plan Your Project?</h2><p className="mx-auto mt-4 max-w-2xl text-xl leading-relaxed">Tell us about your space and what you have in mind.</p><Link href="/contact" className="mt-6 inline-flex min-h-14 items-center rounded-lg bg-white px-7 text-lg font-semibold text-[#27482A] hover:bg-stone-100">Contact Us</Link></section>
-      </main>
-
-      {/* 9. Footer */}
-      <Footer />
-
-      {/* Non-obscuring Floating Labelled WhatsApp Button */}
-      <FloatingWhatsApp />
-    </div>
-  );
+  return <div className="site-shell"><Navbar /><main id="main-content">
+    <section className="hero" aria-labelledby="hero-heading"><img className="hero-image" src="/images/projects/rimbayu-robin-teluk-panglima-02.webp" alt="Rimbayu Robin living-room design with illuminated display cabinetry" width={1017} height={720} fetchPriority="high" /><div className="hero-shade" /><div className="container hero-inner"><div className="hero-copy"><p className="eyebrow hero-eyebrow"><span />Beautiful spaces<br />Brighter lives</p><h1 id="hero-heading">Spaces you&apos;ll love.<br /><em>Built with care.</em></h1><p>Interior design, renovation and construction in Petaling Jaya.</p><div className="hero-actions"><a className="button button-gold" href={getWhatsAppUrl()} target="_blank" rel="noopener noreferrer"><MessageCircle size={22} aria-hidden="true" />Discuss on WhatsApp</a><Link className="button button-outline" href="/portfolio">Explore Our Work <ArrowRight size={21} aria-hidden="true" /></Link></div></div></div></section>
+    <div className="expertise-strip"><div className="container expertise-inner">{SERVICES.map(service => <Link key={service.id} href={`/services#${service.id}`}><service.icon size={35} strokeWidth={1.4} aria-hidden="true" /><span>{service.title}</span></Link>)}</div></div>
+    <section id="about" className="section about-section"><Reveal className="container about-grid"><div className="about-copy"><p className="eyebrow">About Promanage</p><h2>From your first idea<br />to the final detail.</h2><p className="section-copy">We create functional, beautiful spaces through thoughtful design, quality workmanship and a commitment to your vision.</p><Link className="button button-outline" href="/contact">Meet Promanage <ArrowRight size={21} aria-hidden="true" /></Link></div><figure className="about-photo"><img src="/images/fermetec/wisma-fermetec-05.webp" alt="Wisma Fermetec office design concept featuring warm wood finishes and lighting" width={1600} height={900} loading="lazy" /><figcaption>Wisma Fermetec · Office design concept</figcaption></figure></Reveal></section>
+    <section id="services" className="section services-section"><div className="container"><Reveal><div className="section-heading"><div><p className="eyebrow">Our Services</p><h2>Spaces for<br />every chapter.</h2></div><p className="section-copy">From concept to completion, we deliver spaces that work beautifully for the way you live and work.</p></div><div className="service-grid">{SERVICES.map(service => <Link key={service.id} href={`/services#${service.id}`} className="service-card"><div className="service-photo"><img src={service.image} alt={service.alt} width={800} height={600} loading="lazy" /><span className="service-arrow"><ArrowRight size={22} aria-hidden="true" /></span></div><h3>{service.title}</h3><p>{service.short}</p></Link>)}</div></Reveal><Reveal><MaintenanceFeature /></Reveal></div></section>
+    <section className="section showcase-section" aria-label="Project video and 3D design showcase"><Reveal className="container showcase-grid"><div><h2>See our work in motion.</h2><p className="section-copy">A closer look at the spaces we create.</p><VideoPlayer src="/media/project-tour.mp4" poster="/media/project-tour-poster.webp" title="Promanage aerial and interior project tour" caption="Watch the project tour" /></div><div className="design-showcase"><h2>Explore the design before it&apos;s built.</h2><p className="section-copy">Discover the details from every design view.</p><RenderCarousel /></div></Reveal></section>
+    <section id="portfolio" className="section portfolio-section"><div className="container"><Reveal><div className="section-heading"><div><p className="eyebrow">Our Portfolio</p><h2>A closer look at our work.</h2></div><Link className="text-link" href="/portfolio">View All Projects <ArrowRight size={23} aria-hidden="true" /></Link></div><ProjectGallery featured /></Reveal></div></section>
+    <section className="journey-section"><Reveal className="container journey-inner"><div><p className="eyebrow">Our Journey</p><h2>Simple steps.<br />Extraordinary results.</h2></div><div className="journey-steps">{[{title:'Plan',text:'Understand your needs',icon:ClipboardList},{title:'Design',text:'Turn your ideas into reality',icon:Lightbulb},{title:'Build',text:'Deliver with care and quality',icon:HardHat}].map(step => <div className="journey-step" key={step.title}><step.icon size={40} strokeWidth={1.4} aria-hidden="true" /><div><h3>{step.title}</h3><p>{step.text}</p></div></div>)}</div></Reveal></section>
+    <section className="closing-cta"><div className="container closing-inner"><div><p className="eyebrow">Let&apos;s Build Together</p><h2>Let&apos;s bring your space to life.</h2></div><a className="button button-gold" href={getWhatsAppUrl()} target="_blank" rel="noopener noreferrer"><MessageCircle size={23} aria-hidden="true" />Discuss on WhatsApp</a></div></section>
+  </main><Footer /></div>;
 }

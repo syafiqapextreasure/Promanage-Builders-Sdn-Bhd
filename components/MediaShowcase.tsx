@@ -1,0 +1,22 @@
+'use client';
+import { useEffect, useRef, useState } from 'react';
+import { ChevronLeft, ChevronRight, Play } from 'lucide-react';
+export function VideoPlayer({ src, poster, title, caption }: { src: string; poster: string; title: string; caption?: string }) {
+  const video = useRef<HTMLVideoElement>(null);
+  const [started, setStarted] = useState(false);
+  const [error, setError] = useState(false);
+  async function play() { try { await video.current?.play(); setStarted(true); setError(false); } catch { setError(true); } }
+  return <div className="video-frame"><video ref={video} controls={started} playsInline preload="none" poster={poster} aria-label={title} onPlay={() => setStarted(true)} onError={() => setError(true)}><source src={src} type="video/mp4" />Your browser does not support video. <a href={src}>Open the video</a>.</video>{!started && <button type="button" className="video-cover" onClick={play} aria-label={`Play ${title}`}><span className="play-disc"><Play size={30} fill="currentColor" aria-hidden="true" /></span><span className="video-caption">{caption || 'Watch the video'} <span aria-hidden="true">↗</span></span></button>}{error && <p className="video-error">Unable to play? <a href={src} target="_blank" rel="noopener noreferrer">Open the video directly</a>.</p>}</div>;
+}
+const views = [5, 7, 4, 6, 8, 3, 2, 9];
+const descriptions = ['Open-plan workspace', 'Office entrance & lighting', 'Workstations & circulation', 'Display shelving', 'Meeting & work areas', 'Private office', 'Staircase & finishes', 'Washroom design'];
+export function RenderCarousel() {
+  const [index, setIndex] = useState(0);
+  const stage = useRef<HTMLDivElement>(null);
+  const touch = useRef<number | null>(null);
+  const [canTilt, setCanTilt] = useState(false);
+  useEffect(() => { const media = window.matchMedia('(hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)'); const update = () => setCanTilt(media.matches); update(); media.addEventListener('change', update); return () => media.removeEventListener('change', update); }, []);
+  const go = (step: number) => setIndex(current => (current + step + views.length) % views.length);
+  const source = (i: number) => `/images/fermetec/wisma-fermetec-${String(views[(i + views.length) % views.length]).padStart(2, '0')}.webp`;
+  return <div className="render-gallery" role="region" aria-label="Wisma Fermetec 3D design gallery" tabIndex={0} onKeyDown={event => { if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') { event.preventDefault(); go(event.key === 'ArrowRight' ? 1 : -1); } }}><div className="render-stage" ref={stage} onPointerMove={event => { if (!canTilt || !stage.current) return; const bounds = stage.current.getBoundingClientRect(); stage.current.style.setProperty('--tilt-x', `${(0.5 - (event.clientY - bounds.top) / bounds.height) * 5}deg`); stage.current.style.setProperty('--tilt-y', `${((event.clientX - bounds.left) / bounds.width - 0.5) * 6}deg`); }} onPointerLeave={() => { stage.current?.style.setProperty('--tilt-x', '0deg'); stage.current?.style.setProperty('--tilt-y', '0deg'); }} onTouchStart={event => { touch.current = event.changedTouches[0].clientX; }} onTouchEnd={event => { if (touch.current !== null) { const distance = event.changedTouches[0].clientX - touch.current; if (Math.abs(distance) > 45) go(distance < 0 ? 1 : -1); touch.current = null; } }}><img className="render-neighbour previous" src={source(index - 1)} alt="" loading="lazy" aria-hidden="true" /><img key={index} className="render-current" src={source(index)} alt={`Wisma Fermetec 3D design concept: ${descriptions[index]}`} width={1600} height={900} loading="lazy" /><img className="render-neighbour next" src={source(index + 1)} alt="" loading="lazy" aria-hidden="true" /><button type="button" className="circle-control render-prev" onClick={() => go(-1)} aria-label="Previous 3D design"><ChevronLeft aria-hidden="true" /></button><button type="button" className="circle-control render-next" onClick={() => go(1)} aria-label="Next 3D design"><ChevronRight aria-hidden="true" /></button></div><p className="render-caption" aria-live="polite">Wisma Fermetec · 3D Design <span>{index + 1} / {views.length}</span></p><div className="render-thumbnails" aria-label="Choose a 3D design">{views.map((view, n) => <button key={view} type="button" aria-label={`Show ${descriptions[n]}`} aria-pressed={index === n} onClick={() => setIndex(n)}><img src={source(n)} alt="" loading="lazy" width={160} height={90} /></button>)}</div></div>;
+}

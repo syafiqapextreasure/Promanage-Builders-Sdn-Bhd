@@ -151,15 +151,15 @@ export const PORTFOLIO_PROJECTS: ProjectMedia[] = [
     "description": "Landed-home interiors, kitchen details, storage and staircase features.",
     "images": [
       {
-        "src": "/images/projects/rimbayu-robin-teluk-panglima-01.webp",
-        "alt": "Rimbayu Robin @ Teluk Panglima — project image 1",
-        "width": 1020,
-        "height": 720
-      },
-      {
         "src": "/images/projects/rimbayu-robin-teluk-panglima-02.webp",
         "alt": "Rimbayu Robin @ Teluk Panglima — project image 2",
         "width": 1017,
+        "height": 720
+      },
+      {
+        "src": "/images/projects/rimbayu-robin-teluk-panglima-01.webp",
+        "alt": "Rimbayu Robin @ Teluk Panglima — project image 1",
+        "width": 1020,
         "height": 720
       },
       {
@@ -247,7 +247,7 @@ export const PORTFOLIO_PROJECTS: ProjectMedia[] = [
         "height": 603
       }
     ],
-    "image": "/images/projects/rimbayu-robin-teluk-panglima-01.webp"
+    "image": "/images/projects/rimbayu-robin-teluk-panglima-02.webp"
   },
   {
     "id": "serene-mont-kiara",
@@ -1488,5 +1488,69 @@ export const PORTFOLIO_PROJECTS: ProjectMedia[] = [
       }
     ],
     "image": "/images/projects/the-pearl-klcc-01.webp"
+  },
+  {
+    "id": "wisma-fermetec",
+    "title": "Wisma Fermetec",
+    "location": "Wisma Fermetec",
+    "category": "Commercial",
+    "description": "Office design concepts with warm wood finishes, open workspaces and carefully planned lighting.",
+    "image": "/images/fermetec/wisma-fermetec-05.webp",
+    "images": [
+      {
+        "src": "/images/fermetec/wisma-fermetec-05.webp",
+        "alt": "Wisma Fermetec - 3D design view 4",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "/images/fermetec/wisma-fermetec-07.webp",
+        "alt": "Wisma Fermetec - 3D design view 6",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "/images/fermetec/wisma-fermetec-01.webp",
+        "alt": "Wisma Fermetec - building exterior",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "/images/fermetec/wisma-fermetec-02.webp",
+        "alt": "Wisma Fermetec - 3D design view 1",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "/images/fermetec/wisma-fermetec-03.webp",
+        "alt": "Wisma Fermetec - 3D design view 2",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "/images/fermetec/wisma-fermetec-04.webp",
+        "alt": "Wisma Fermetec - 3D design view 3",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "/images/fermetec/wisma-fermetec-06.webp",
+        "alt": "Wisma Fermetec - 3D design view 5",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "/images/fermetec/wisma-fermetec-08.webp",
+        "alt": "Wisma Fermetec - 3D design view 7",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "/images/fermetec/wisma-fermetec-09.webp",
+        "alt": "Wisma Fermetec - 3D design view 8",
+        "width": 1280,
+        "height": 720
+      }
+    ]
   }
 ];

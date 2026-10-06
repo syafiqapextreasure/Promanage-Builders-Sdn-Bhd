@@ -2,9 +2,10 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  icons: { icon: '/images/promanage-logo-original.png', apple: '/images/promanage-logo-original.png' },
   title: 'PROMANAGE BUILDERS SDN BHD | Interior Design, Renovation & Construction',
   description:
-    'Thoughtfully designed and beautifully built interior design, residential renovation, commercial fit-outs, and construction works in Petaling Jaya and Klang Valley. Led by Benedict Tan.',
+    'Interior design, renovation, construction, project management and building maintenance for homes, businesses, JMBs and MCs in Petaling Jaya and Klang Valley. Led by Benedict Tan.',
   keywords: [
     'Promanage Builders Sdn Bhd',
     'Benedict Tan',
@@ -95,6 +96,14 @@ const jsonLd = {
           name: 'Project Management',
           description: 'Accurate budget planning, strict progress scheduling, and contractor coordination.'
         }
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Building Maintenance & Repairs',
+          description: 'Common-area repairs, waterproofing, plumbing, pavement, signage and fire-door replacement for JMBs and MCs.'
+        }
       }
     ]
   }
@@ -109,10 +118,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="bg-[#FAF8F5] text-stone-900 antialiased selection:bg-[#B89047]/30 selection:text-stone-900" suppressHydrationWarning>
+      <body>
         {children}
       </body>
     </html>
   );
 }
+
 
