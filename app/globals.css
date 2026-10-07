@@ -212,3 +212,16 @@ section[id] { scroll-margin-top:110px; }
   .brand-link .brand-tagline { font-size:clamp(7.5px,2.25vw,10px); white-space:nowrap; max-width:none; letter-spacing:0; }
   .menu-toggle { flex-shrink:0; min-width:44px; justify-content:center; padding:8px; }
 }
+
+
+/* Service pages use the same green and gold theme as the homepage. */
+.service-detail-link { display:flex; margin-bottom:14px; }
+.service-paragraph { margin-top:22px; }
+.detail-photo figcaption { color:var(--muted); font-size:15px; margin-top:10px; }
+.service-faq { max-width:960px; }
+.service-faq h2 { margin-bottom:30px; }
+.service-faq details { border-top:1px solid var(--line); padding-block:20px; }
+.service-faq summary { cursor:pointer; font-weight:600; font-size:20px; }
+.service-faq details p { margin-top:15px; }
+.related-services { display:flex; flex-wrap:wrap; gap:18px 32px; }
+.service-video { max-width:900px; margin-top:30px; }
