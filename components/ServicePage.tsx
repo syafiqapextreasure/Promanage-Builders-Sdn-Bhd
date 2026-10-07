@@ -1,4 +1,3 @@
-import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowRight, CircleCheck, MessageCircle } from 'lucide-react';
@@ -7,22 +6,11 @@ import Footer from '@/components/Footer';
 import CIDBBadge from '@/components/CIDBBadge';
 import { VideoPlayer } from '@/components/MediaShowcase';
 import { SERVICE_PAGES, findServicePage } from '@/data/service-pages';
-import { BUSINESS_ID, SITE_URL, jsonLdText, pageMetadata } from '@/lib/seo';
+import { BUSINESS_ID, SITE_URL, jsonLdText } from '@/lib/seo';
 import { getWhatsAppUrl } from '@/lib/whatsapp';
 
-type Props = { params: Promise<{ slug: string }> };
-export const dynamicParams = false;
-export function generateStaticParams() {
-  return SERVICE_PAGES.map(service => ({ slug: service.slug }));
-}
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const service = findServicePage((await params).slug);
-  if (!service) notFound();
-  return pageMetadata(service.title, service.description, `/services/${service.slug}`, service.image);
-}
-
-export default async function ServicePage({ params }: Props) {
-  const service = findServicePage((await params).slug);
+export default function ServicePage({ slug }: { slug: string }) {
+  const service = findServicePage(slug);
   if (!service) notFound();
   const url = `${SITE_URL}/services/${service.slug}`;
   const structuredData = {
