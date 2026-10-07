@@ -1,12 +1,12 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import { ChevronLeft, ChevronRight, Play } from 'lucide-react';
-export function VideoPlayer({ src, poster, title, caption }: { src: string; poster: string; title: string; caption?: string }) {
+export function VideoPlayer({ src, poster, title, caption, captions }: { src: string; poster: string; title: string; caption?: string; captions?: string }) {
   const video = useRef<HTMLVideoElement>(null);
   const [started, setStarted] = useState(false);
   const [error, setError] = useState(false);
   async function play() { try { await video.current?.play(); setStarted(true); setError(false); } catch { setError(true); } }
-  return <div className="video-frame"><video ref={video} controls={started} playsInline preload="none" poster={poster} aria-label={title} onPlay={() => setStarted(true)} onError={() => setError(true)}><source src={src} type="video/mp4" />Your browser does not support video. <a href={src}>Open the video</a>.</video>{!started && <button type="button" className="video-cover" onClick={play} aria-label={`Play ${title}`}><span className="play-disc"><Play size={30} fill="currentColor" aria-hidden="true" /></span><span className="video-caption">{caption || 'Watch the video'} <span aria-hidden="true">↗</span></span></button>}{error && <p className="video-error">Unable to play? <a href={src} target="_blank" rel="noopener noreferrer">Open the video directly</a>.</p>}</div>;
+  return <div className="video-frame"><video ref={video} controls={started} playsInline preload="none" poster={poster} aria-label={title} onPlay={() => setStarted(true)} onError={() => setError(true)}><source src={src} type="video/mp4" />{captions && <track kind="captions" src={captions} srcLang="en" label="English" />}Your browser does not support video. <a href={src}>Open the video</a>.</video>{!started && <button type="button" className="video-cover" onClick={play} aria-label={`Play ${title}`}><span className="play-disc"><Play size={30} fill="currentColor" aria-hidden="true" /></span><span className="video-caption">{caption || 'Watch the video'} <span aria-hidden="true">↗</span></span></button>}{error && <p className="video-error">Unable to play? <a href={src} target="_blank" rel="noopener noreferrer">Open the video directly</a>.</p>}</div>;
 }
 const views = [5, 7, 4, 6, 8, 3, 2, 9];
 const descriptions = ['Open-plan workspace', 'Office entrance & lighting', 'Workstations & circulation', 'Display shelving', 'Meeting & work areas', 'Private office', 'Staircase & finishes', 'Washroom design'];
