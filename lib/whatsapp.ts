@@ -5,8 +5,12 @@ export const PROMANAGE_CONTACT = {
   phoneDisplay: '+60 16 328 1581',
   phoneRaw: '60163281581',
   email: 'promanagebuilders1558880h@gmail.com',
-  address: '33, Jalan SS2/24, SS2, 47300 Petaling Jaya, Selangor',
-  googleMapsUrl: 'https://maps.google.com/?q=33,+Jalan+SS2/24,+SS2,+47300+Petaling+Jaya,+Selangor'
+  address: 'No. 38, Jalan SE03, Sunway Eastwood, Equine Park, 43300 Seri Kembangan, Selangor',
+  streetAddress: 'No. 38, Jalan SE03, Sunway Eastwood, Equine Park',
+  addressLocality: 'Seri Kembangan',
+  addressRegion: 'Selangor',
+  postalCode: '43300',
+  googleMapsUrl: 'https://maps.google.com/?q=No.+38,+Jalan+SE03,+Sunway+Eastwood,+Equine+Park,+43300+Seri+Kembangan,+Selangor'
 };
 
 export function getWhatsAppUrl(customMessage?: string): string {

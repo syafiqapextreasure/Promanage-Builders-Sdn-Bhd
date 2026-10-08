@@ -7,8 +7,8 @@ import './globals.css';
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   icons: { icon: '/images/promanage-logo-original.png', apple: '/images/promanage-logo-original.png' },
-  title: 'Renovation & House Extensions Petaling Jaya | Promanage',
-  description: 'CIDB registered contractor in SS2, Petaling Jaya. Renovation, house extensions, wet works, interior design and JMB building maintenance across Klang Valley.',
+  title: 'Renovation & House Extensions Seri Kembangan | Promanage',
+  description: 'CIDB registered contractor in Equine Park, Seri Kembangan. House extensions, renovations and building maintenance across Petaling Jaya and Klang Valley.',
   authors: [{ name: 'Promanage Builders Sdn Bhd' }],
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 } },
 };
@@ -22,9 +22,9 @@ const jsonLd = {
       identifier: { '@type': 'PropertyValue', propertyID: 'SSM registration', value: PROMANAGE_CONTACT.registrationNumber },
       url: `${SITE_URL}/`, logo: `${SITE_URL}/images/promanage-logo-original.png`,
       image: `${SITE_URL}${SOCIAL_IMAGE}`,
-      description: 'CIDB registered contractor in Petaling Jaya providing renovation, house extensions, wet works, interior design, project management and building maintenance for JMBs, MCs and MOs in Klang Valley.',
+      description: 'CIDB registered contractor based in Equine Park, Seri Kembangan, providing renovation, house extensions, wet works, interior design, project management and building maintenance for JMBs, MCs and MOs in Petaling Jaya and Klang Valley.',
       telephone: `+${PROMANAGE_CONTACT.phoneRaw}`, email: PROMANAGE_CONTACT.email,
-      address: { '@type': 'PostalAddress', streetAddress: '33, Jalan SS2/24, SS2', addressLocality: 'Petaling Jaya', addressRegion: 'Selangor', postalCode: '47300', addressCountry: 'MY' },
+      address: { '@type': 'PostalAddress', streetAddress: PROMANAGE_CONTACT.streetAddress, addressLocality: PROMANAGE_CONTACT.addressLocality, addressRegion: PROMANAGE_CONTACT.addressRegion, postalCode: PROMANAGE_CONTACT.postalCode, addressCountry: 'MY' },
       contactPoint: { '@type': 'ContactPoint', telephone: `+${PROMANAGE_CONTACT.phoneRaw}`, contactType: 'Project enquiries', name: PROMANAGE_CONTACT.managingDirector },
       areaServed: [{ '@type': 'City', name: 'Petaling Jaya' }, { '@type': 'Place', name: 'Klang Valley' }],
       hasOfferCatalog: { '@type': 'OfferCatalog', name: 'Renovation, construction and building maintenance services',

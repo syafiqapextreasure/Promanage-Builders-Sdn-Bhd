@@ -4,7 +4,7 @@ export const SERVICE_PAGES = [
     heading: 'Renovation contractor in Petaling Jaya',
     title: 'Renovation Contractor Petaling Jaya | Promanage Builders',
     description: 'Home and office renovation in Petaling Jaya and Klang Valley. Kitchens, bathrooms, cabinetry, tiling, painting and wet works by Promanage Builders.',
-    intro: 'Give your home or workplace a fresh beginning. Based in SS2, Petaling Jaya, Promanage Builders coordinates renovation work across Petaling Jaya and Klang Valley, from a kitchen refresh to a wider property upgrade.',
+    intro: 'Give your home or workplace a fresh beginning. Based in Equine Park, Seri Kembangan, Promanage Builders coordinates renovation work across Petaling Jaya and Klang Valley, from a kitchen refresh to a wider property upgrade.',
     image: '/images/projects/rimbayu-robin-teluk-panglima-02.webp',
     alt: 'Rimbayu Robin living-room design with built-in display cabinets', caption: 'Rimbayu Robin · Interior design showcase',
     scope: ['Kitchen and bathroom renovation', 'Carpentry and custom cabinetry', 'Ceilings, tiling and flooring', 'Interior painting and waterproofing', 'Plumbing and electrical works', 'Home and office upgrades'],
@@ -37,7 +37,7 @@ export const SERVICE_PAGES = [
       {"question": "Can we stay in the house during extension work?", "answer": "This needs to be assessed for your property. Safe access, dust and noise, working areas, temporary protection and interruptions to water or electricity all matter. Tell us that the home will be occupied so these constraints can be discussed when planning the work."},
       {"question": "Can extension work be combined with renovation?", "answer": "Yes. Share both the new space you want to add and the existing rooms you want to renovate. Discussing them together helps identify connections between the extension, kitchen or bathroom work, services and finishes."},
       {"question": "What should I send for an extension quotation?", "answer": "Send the property address, current photographs, existing plans or proposed drawings, and the intended use of the additional space. Include your approximate budget, target timeline, occupancy and any access limitations. These details support an initial discussion; measurements and site conditions may still need to be reviewed."},
-      {"question": "Which areas do you serve for house extensions?", "answer": "Promanage Builders is based in SS2, Petaling Jaya, and serves Petaling Jaya and Klang Valley. Contact Benedict Tan with the property location and proposed scope to discuss your project."},
+      {"question": "Which areas do you serve for house extensions?", "answer": "Promanage Builders is based in Equine Park, Seri Kembangan, and serves Petaling Jaya and Klang Valley. Contact Benedict Tan with the property location and proposed scope to discuss your project."},
     ],
   },
   {

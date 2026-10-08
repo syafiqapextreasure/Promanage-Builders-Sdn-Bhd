@@ -69,7 +69,7 @@ export const AboutSection: React.FC = () => {
                   <h3 className="font-bold text-[18px] text-stone-900">Registered Malaysian Entity</h3>
                 </div>
                 <p className="text-[16px] text-stone-600 leading-normal">
-                  Registered under SSM {PROMANAGE_CONTACT.registrationNumber} with office based in Petaling Jaya SS2.
+                  Registered under SSM {PROMANAGE_CONTACT.registrationNumber} with office based in Equine Park, Seri Kembangan.
                 </p>
               </div>
             </div>
@@ -132,7 +132,7 @@ export const AboutSection: React.FC = () => {
                 <div className="flex items-start gap-2">
                   <MapPin className="w-4 h-4 text-[#27482A] shrink-0 mt-1" aria-hidden="true" />
                   <div>
-                    <strong className="font-semibold text-stone-900">Registered Office Address:</strong>
+                    <strong className="font-semibold text-stone-900">Office Address:</strong>
                     <p className="text-stone-700">{PROMANAGE_CONTACT.address}</p>
                   </div>
                 </div>

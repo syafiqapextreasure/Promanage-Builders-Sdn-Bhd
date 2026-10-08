@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { getWhatsAppUrl } from '@/lib/whatsapp';
+import { getWhatsAppUrl, PROMANAGE_CONTACT } from '@/lib/whatsapp';
 import { SITE_IMAGES } from '@/lib/project-images';
 import { MessageSquare, ArrowRight, MapPin, CheckCircle2, Building2 } from 'lucide-react';
 
@@ -186,7 +186,7 @@ export const Hero: React.FC = () => {
               <div className="px-5 py-2.5 bg-stone-900 border-t border-stone-800 flex items-center justify-between text-xs text-stone-300">
                 <div className="flex items-center gap-1.5">
                   <MapPin className="w-3.5 h-3.5 text-amber-400" aria-hidden="true" />
-                  <span>33, Jalan SS2/24, SS2, Petaling Jaya</span>
+                  <span>{PROMANAGE_CONTACT.address}</span>
                 </div>
                 <a
                   href="tel:+60163281581"
