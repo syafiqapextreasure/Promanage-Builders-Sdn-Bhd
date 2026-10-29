@@ -7,7 +7,14 @@ import './globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  icons: { icon: '/images/promanage-logo-original.png', apple: '/images/promanage-logo-original.png' },
+  icons: {
+    icon: [
+      { url: '/favicon.ico?v=20261030', type: 'image/x-icon', sizes: '16x16 32x32 48x48 64x64 128x128 256x256' },
+      { url: '/favicon-32x32.png?v=20261030', type: 'image/png', sizes: '32x32' },
+    ],
+    shortcut: '/favicon.ico?v=20261030',
+    apple: { url: '/apple-touch-icon.png?v=20261030', type: 'image/png', sizes: '180x180' },
+  },
   title: 'Renovation & House Extensions Seri Kembangan | Promanage',
   description: 'CIDB registered contractor in Equine Park, Seri Kembangan. House extensions, renovations and building maintenance across Petaling Jaya and Klang Valley.',
   authors: [{ name: 'Promanage Builders Sdn Bhd' }],
