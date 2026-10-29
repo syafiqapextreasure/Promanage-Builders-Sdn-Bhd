@@ -1,4 +1,6 @@
 export const MAINTENANCE_VIDEO = {
+  watchPath: '/videos/building-maintenance',
+  description: 'Watch Promanage introduce common-area repairs for JMBs, MCs and management offices: wet works, signage, pavement repairs, fire-door replacement, plumbing and waterproofing.',
   src: '/media/building-maintenance.mp4',
   poster: '/images/services/maintenance-cover.webp',
   captions: '/media/building-maintenance.en.vtt',

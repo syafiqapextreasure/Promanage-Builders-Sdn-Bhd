@@ -1,0 +1,4 @@
+# Captions remain accessible to video players and crawlers, without becoming
+# standalone search results. Do not apply noindex to the video or its thumbnail.
+/media/*.vtt
+  X-Robots-Tag: noindex

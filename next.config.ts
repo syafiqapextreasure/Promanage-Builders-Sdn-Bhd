@@ -2,6 +2,11 @@ import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  async headers() {
+    // Cloudflare serves public assets using public/_headers; this also covers
+    // local Next.js and deployments where Next serves the caption file.
+    return [{ source: '/media/:file*.vtt', headers: [{ key: 'X-Robots-Tag', value: 'noindex' }] }];
+  },
   typescript: {
     ignoreBuildErrors: false,
   },

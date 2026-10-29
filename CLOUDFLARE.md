@@ -57,3 +57,28 @@ After activation, open the public site and use Realtime/DebugView to confirm
 initial and navigated `page_view` events, then a contact event. WhatsApp tests can
 open a draft; do not send it. Standard reports can take 24-48 hours to populate.
 Keep the client's account ownership and reporting access with the client.
+
+## Search indexing and maintenance video
+
+The canonical origin is `https://promanagebuilders.com`. Middleware permanently
+redirects HTTP page requests and the www/production workers.dev hosts to that
+origin while preserving the path and query. Public assets can be served before
+middleware by Cloudflare; enable the zone's Always Use HTTPS setting if HTTPS
+enforcement is also wanted for every static asset request.
+
+`/videos/building-maintenance` is the dedicated watch page. It has a prominent
+server-rendered player, captions, a transcript, VideoObject metadata, and a video
+entry in `/sitemap.xml`. Existing marketing/project pages can still embed the
+same video; they are not intended to become video watch pages.
+
+Only `/media/*.vtt` receives `X-Robots-Tag: noindex`. Cloudflare applies this from
+`public/_headers`, which must remain in the generated `.open-next/assets`
+directory. `next.config.ts` provides the equivalent header when Next serves
+the caption file. Keep captions, the MP4 and thumbnail crawlable. Do not block
+these resources in robots.txt or apply noindex to the MP4/thumbnail.
+
+After deployment, resubmit the existing sitemap URL in Search Console. Inspect
+the HTTPS watch page, run Test Live URL, then Request Indexing. HTTP duplicates,
+permanent redirects and caption files do not need indexing requests. Recheck
+the canonical HTTPS page if an alternate-URL report persists; successful
+technical checks do not guarantee that Google will index a page or video.

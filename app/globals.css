@@ -227,6 +227,11 @@ section[id] { scroll-margin-top:110px; }
 .service-video { max-width:900px; margin-top:30px; }
 
 
+.watch-section { padding-block:24px 40px; border-bottom:1px solid var(--line); }
+.watch-container { max-width:960px; }
+.watch-container h1 { font-size:clamp(25px,3vw,38px); margin-block:16px 22px; }
+.watch-player { width:100%; }
+.watch-description { margin-top:20px; }
 /* Project details and transcripts follow the existing green and gold palette. */
 .study-cards { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:26px; margin-top:30px; }
 .study-card { min-width:0; background:var(--surface); border:1px solid var(--line); border-radius:6px; overflow:hidden; }
