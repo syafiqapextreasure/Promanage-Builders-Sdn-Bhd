@@ -10,6 +10,12 @@ This Next.js app uses the OpenNext Cloudflare adapter. The Worker name and WORKE
 
 Install dependencies using `npm ci`. Commit package-lock.json when dependencies change.
 
+The tested framework/toolchain is Next.js 16.4.3, OpenNext Cloudflare 1.20.14,
+and Wrangler 4.155.0. The lockfile is generated and validated with npm 10.9.2.
+The build/dev scripts explicitly use Webpack to retain the existing Webpack
+configuration. TypeScript build checks remain enabled. The legacy `eslint`
+Next.js config key was removed for Next.js 16; linting is a separate npm script.
+
 The existing deploy command `npx wrangler deploy` is also supported: the Wrangler build hook runs the OpenNext build before uploading. If retaining it, the separate build command may be left blank to avoid building twice.
 
 For local preview run `npm run preview:cloudflare`. For a manual deployment, run `npm run build:cloudflare` followed by `npm run deploy:cloudflare` after authenticating with Cloudflare.
