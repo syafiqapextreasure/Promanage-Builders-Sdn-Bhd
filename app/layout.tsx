@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { BUSINESS_ID, SITE_URL, SOCIAL_IMAGE, jsonLdText } from '@/lib/seo';
 import { PROMANAGE_CONTACT } from '@/lib/whatsapp';
 import { SERVICE_PAGES } from '@/data/service-pages';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -39,5 +40,5 @@ const jsonLd = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return <html lang="en-MY" className="scroll-smooth"><head><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdText(jsonLd) }} /></head><body>{children}</body></html>;
+  return <html lang="en-MY" className="scroll-smooth"><head><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdText(jsonLd) }} /></head><body>{children}<GoogleAnalytics /></body></html>;
 }
