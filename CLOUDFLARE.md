@@ -82,3 +82,10 @@ the HTTPS watch page, run Test Live URL, then Request Indexing. HTTP duplicates,
 permanent redirects and caption files do not need indexing requests. Recheck
 the canonical HTTPS page if an alternate-URL report persists; successful
 technical checks do not guarantee that Google will index a page or video.
+
+`worker.mjs` delegates pages to the generated OpenNext worker and handles only
+the maintenance MP4 before Workers Assets. `lib/serve-video.mjs` implements
+single-byte Range requests (206/416), HEAD and If-Range validators, because the
+asset service otherwise returns the full file for range requests. Other static
+assets retain asset-first routing. Keep this handler scoped to this small video;
+use a streaming media store for substantially larger video libraries.
