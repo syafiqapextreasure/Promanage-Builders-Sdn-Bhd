@@ -1,6 +1,6 @@
 // GA4 Measurement IDs are public identifiers, not account passwords or API keys.
-// Set the build variable below, or add the real G-... ID as the fallback here.
-const configuredMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || '';
+// An explicit empty build variable disables tracking; otherwise use this site's ID.
+const configuredMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ?? 'G-NDK2HB83SK';
 export const GA_MEASUREMENT_ID = /^G-[A-Z0-9]+$/.test(configuredMeasurementId.trim())
   ? configuredMeasurementId.trim()
   : '';

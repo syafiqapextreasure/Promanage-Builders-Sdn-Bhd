@@ -18,12 +18,13 @@ Do not commit .dev.vars, Cloudflare API tokens, or build output.
 
 ## Google Analytics 4
 
-Analytics is inactive until a real Measurement ID is configured. No ID is fabricated.
-Set `NEXT_PUBLIC_GA_MEASUREMENT_ID` to the web stream's `G-...` ID in the Worker's
+The site's configured Measurement ID is `G-NDK2HB83SK`, supplied by the owner.
+It is the public fallback in `lib/analytics.ts`. To override it, set
+`NEXT_PUBLIC_GA_MEASUREMENT_ID` to a web stream's `G-...` ID in the Worker's
 Settings > Build > Build variables and secrets, then rebuild/redeploy. This is a
 Next.js build-time public variable; adding only a runtime Worker binding will not
-update the client bundle. Alternatively, maintain the public ID as the fallback
-in `lib/analytics.ts` and publish through the existing Git workflow.
+update the client bundle. An explicitly empty build variable disables tracking.
+After changing the public fallback, publish through the existing Git workflow.
 
 Create the GA4 property for `https://promanagebuilders.com`, with Malaysia time
 zone and MYR currency. Create a Web data stream. In Enhanced measurement:
